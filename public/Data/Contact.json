@@ -1,0 +1,50 @@
+[
+  {
+    "name": "Marvelous",
+    "role": "Team Lead",
+    "department": "CPISM",
+    "phone": "+2347068778571",
+    "email": "marvelousrhose@gmail.com",
+    "image": ""
+  },
+  {
+    "name": "Haleem(C.Y.B.E.R)",
+    "role": "Assistant Team Lead",
+    "department": "CPISM",
+    "phone": "+2349137235901",
+    "email": "haleemoladejo@gmail.com",
+    "image": ""
+  },
+  {
+    "name": "Emmanuel",
+    "role": "Frontend Developer and UI/UX Designer",
+    "department": "CPISM",
+    "phone": "+2347044087764",
+    "email": "emmanuelakanbi45@gmail.com",
+    "image": ""
+  },
+  {
+    "name": "David",
+    "role": "Frontend Developer and UI/UX Designer",
+    "department": "CPISM",
+    "phone": "2347025001215",
+    "email": "davvidggg@gmail.com",
+    "image": ""
+  },
+  {
+    "name": "Amira",
+    "role": "UI/UX Designer",
+    "department": "CPISM",
+    "phone": "08140057120",
+    "email": "amiraomotola2@gmail.com",
+    "image": ""
+  },
+  {
+    "name": "Oyindamola",
+    "role": "Data handler",
+    "department": "CPISM",
+    "phone": "09066719318",
+    "email": "oyindamolazainab66@gmail.com",
+    "image": ""
+  }
+]
