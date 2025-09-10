@@ -1,0 +1,93 @@
+[
+  {
+    "year": "2019",
+    "category": "Technical",
+    "title": "Hackathon 2019",
+    "image": "https://i.ibb.co/5WD35TTc/Gallery6.png"
+  },
+  {
+    "year": "2022",
+    "category": "Cultural",
+    "title": "Drama Night 2022",
+    "image": "https://i.ibb.co/3mQcywCy/Gallery1.png"
+  },
+  {
+    "year": "2022",
+    "category": "Sports",
+    "title": "Inter-College Football",
+    "image": "https://i.ibb.co/3yxxs78D/Gallery2.png"
+  },
+  {
+    "year": "2024",
+    "category": "Technical",
+    "title": "Robotics Expo 2024",
+    "image": "https://i.ibb.co/PGw0Fxcd/Gallery3.png"
+  },
+  {
+    "year": "2024",
+    "category": "Cultural",
+    "title": "Music Fest 2024",
+    "image": "https://i.postimg.cc/9fq79VVG/Gallery5.png"
+  },  
+  {
+    "year": "2024",
+    "category": "Sports",
+    "title": "Athletics Meet 2024",
+    "image": "https://i.postimg.cc/GmP5P0Qs/Gallery12.jpg"
+  },
+  {
+    "year": "2023",
+    "category": "Cultural",
+    "title": "Art Exhibition 2023",
+    "image": "https://i.postimg.cc/rmR2cn1y/Gallery4.png"
+  },
+  {
+    "year": "2023",
+    "category": "Technical",
+    "title": "Coding Marathon 2023",
+    "image": "https://i.postimg.cc/sfcCzhSh/Gallery9.jpg"
+  },
+  {
+    "year": "2023",
+    "category": "Sports",
+    "title": "Inter-College Marathon",
+    "image": "https://i.postimg.cc/g2xC3t7V/Gallery11.jpg"
+  },
+  {
+    "year": "2021",
+    "category": "Departmental",
+    "title": "Department Meetup 2021",
+    "image": "https://i.postimg.cc/qvYxC1fC/gallery13.avif"
+  },
+  {
+    "year": "2020",
+    "category": "Cultural",
+    "title": "Virtual Talent Show 2020",
+    "image": "https://i.postimg.cc/X7YfHR4C/Gallery14.avif"
+  },
+  {
+    "year": "2020",
+    "category": "Technical",
+    "title": "Online Coding Challenge 2020",
+    "image": "https://i.postimg.cc/43QnT31N/gallery15.avif"
+  },
+  {
+    "year": "2021",
+    "category": "Departmental",
+    "title": "Alumni Meet 2021",
+    "image": "https://i.postimg.cc/Dw2wPhT9/gallery16.avif"
+  },
+  {
+    "year": "2022",
+    "category": "Cultural",
+    "title": "Cultural Fest 2022",
+    "image": "https://i.postimg.cc/T3wXP3G3/gallery17avif.avif"
+  },
+  {
+    "year": "2023",
+    "category": "Technical",
+    "title": "Tech Symposium 2023",
+    "image": "https://i.postimg.cc/2jKQtH69/gallery17.avif"
+  }
+
+]
