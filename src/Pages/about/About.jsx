@@ -11,7 +11,7 @@ import icon3 from '../../assets/images/icon3.png'
 
 function About() {
   const handleClick = () =>{
-
+    
   }
   return (
     <div className="body">
