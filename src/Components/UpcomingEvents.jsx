@@ -73,8 +73,9 @@ const UpcomingEvents = ({ filters }) => {
   };
 
   return (
-    <section className="upcoming-events ">
+    <section className=" upcoming-events ">
       {/* HEADER */}
+      <div className="container">
       <div className="section-header">
         <div className="left-header">
           <h2>
@@ -160,6 +161,7 @@ const UpcomingEvents = ({ filters }) => {
       {/* SEE MORE */}
       <div className="see-more">
         <button>See More</button>
+      </div>
       </div>
     </section>
   );
