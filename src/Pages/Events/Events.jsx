@@ -1,89 +1,113 @@
-import React, { useEffect, useState } from 'react'
-import "./events.css"
-import { CiFilter } from "react-icons/ci";
+import React, { useState } from "react";
+import "./events.css";
+import { CiBookmark } from "react-icons/ci";
 import { IoLocationOutline } from "react-icons/io5";
 import { LuCalendarDays } from "react-icons/lu";
 import Countdown from '../../Components/Countdown';
 
+import { FaBookmark } from "react-icons/fa";
+import { motion } from "framer-motion";
+import FilterSection from "../../Components/FilterSection.jsx";
+import { BiSolidCategory } from "react-icons/bi";
 
-export default function Events() {
+export default function Events({ events, bookmarks, setBookmarks }) {
+  const [filters, setFilters] = useState({
+    date: "",
+    eventName: "",
+    category: "",
+  });
 
-  const [events, SetEvents] = useState([])
+  // Toggle bookmark
+  const toggleBookmark = (id) => {
+    setBookmarks((prev) =>
+      prev.includes(id) ? prev.filter((bid) => bid !== id) : [...prev, id]
+    );
+  };
 
-  useEffect(()=> {
-    fetch("/Data/EventListing.json")
-    .then((res) => res.json())
-    .then((data) => SetEvents(data))
-    .catch((err) => console.log(err.message))
-  }, [])
+  // Apply filters
+  const filteredEvents = events.filter((event) => {
+    const matchesDate = filters.date ? event.date === filters.date : true;
+    const matchesName = filters.eventName
+      ? event.title.toLowerCase().includes(filters.eventName.toLowerCase())
+      : true;
+    const matchesCategory = filters.category
+      ? event.category === filters.category
+      : true;
+    return matchesDate && matchesName && matchesCategory;
+  });
+
   return (
     <>
-  {/* events hero section */}
-    <div className='events'>
-    <div className='d-flex flex-column justify-content-center align-items-center vh-100 text-center '>
-      <h1 className='text-white fw-bold fs-1'>Explore Upcoming Events</h1>
-      <p className='text-white text-sm w-50'> A collection of upcoming events you can attend on campus, from cultural fests, sports events, workshops, and more.</p>
-    </div>
-
-  
-  <div className="">
-  <div className=" justify-content-center">
-    <div className="filterCard bg-white py-4 px-4 shadow-lg rounded-2 d-flex col-12 col-md-10 col-lg-8">
-     <form className='filterForm'>
-      <input type='date' />
-      <input type='text' placeholder='Event Name'/>
-        <select className="">
-          <option value="">Category</option>
-          <option value="sports">Sports</option>
-          <option value="cultural">Cultural</option>
-          <option value="department">Department</option>
-          <option value="technical">Technical</option>
-        </select>
-
-        <button className='rounded-2'><CiFilter className='filterIcon'/></button>
-     </form>
-    </div>
-  </div>
-</div>
-
-    </div>
-
-
-    <div className='eventsContainer container'>
-
-    {
-      events.map((event) => {
-        return(
-        <div className='eventCard bg-white' key={event.id}>
-        <img src={event.image} alt='Event Thumbnail' className='image-fluid'/>
-        <Countdown date={event.date} />
-        
-
-        <div className='p-3'>
-        <h4 className='fw-bold mt-4'>{event.title}</h4>
-        <p>{event.description}</p>
-
-        <div className='info'>
-          <IoLocationOutline />
-          <p className=''>{event.venue}</p>
+      {/* Hero section */}
+      <div className="events">
+        <div className="d-flex flex-column justify-content-center align-items-center vh-100 text-center">
+          <h1 className="text-white fw-bold fs-1">Explore Upcoming Events</h1>
+          <p className="text-white text-sm w-50">
+            A collection of upcoming events you can attend on campus, from
+            cultural fests, sports events, workshops, and more.
+          </p>
         </div>
 
-      <div className='info'>
-        <LuCalendarDays />
-        <p className=''>{event.date} {event.time}</p>
+        <FilterSection onFilter={setFilters} />
       </div>
-   </div>
-    </div>
 
-        )
-      })
-    }
+      {/* Event Listing */}
+      <div className="event-listing container">
+        <div className="section-header">
+          <div className="left-header">
+            <h2>
+              Popular Events <span className="underline"></span>
+            </h2>
+            <p className="result-count">{filteredEvents.length} Events Found</p>
+          </div>
+        </div>
 
-   
-      
-    </div>
+        <div className="events-list">
+          {filteredEvents.length === 0 ? (
+            <p>No events found for the selected filters.</p>
+          ) : (
+            filteredEvents.map((event) => (
+              <div className="event-card" key={event.id}>
+                <div className="event-image">
+                  <img src={event.image} alt={event.title} />
+                  <span className="days-tag">
+                    <Countdown date={event.date} />
+                  </span>
+                </div>
 
-  
+                <div className="event-details">
+                  <h3>{event.title}</h3>
+                  <p className="desc">{event.description}</p>
+                  <p className="location">
+                    <BiSolidCategory /> {event.category}
+                  </p>
+                  <p className="location">
+                    <IoLocationOutline /> {event.venue}
+                  </p>
+                  <p className="date-time">
+                    <LuCalendarDays /> {event.date}, {event.time}
+                  </p>
+
+                  <div className="event-footer">
+                    <span className="tag">{event.price || "Free"}</span>
+                    <motion.button
+                      className="bookmark"
+                      onClick={() => toggleBookmark(event.id)}
+                      whileTap={{ scale: 1.3 }}
+                    >
+                      {bookmarks.includes(event.id) ? (
+                        <FaBookmark color="#f05537" />
+                      ) : (
+                        <CiBookmark />
+                      )}
+                    </motion.button>
+                  </div>
+                </div>
+              </div>
+            ))
+          )}
+        </div>
+      </div>
     </>
-  )
+  );
 }
