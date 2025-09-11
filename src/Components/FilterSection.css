@@ -75,7 +75,10 @@ height: auto;
   justify-content: center;
     font-size: 30px;
 }
-
+.filter-btn .icon{
+  width: 30px;
+  height: 30px;
+}
 .filter-btn:hover {
   background: #d94326;
 }
@@ -163,4 +166,29 @@ height: auto;
     top: 0;
     right: 5px;
   }
+}
+@media (min-width: 320px) and (max-width: 480px)  {
+  .filter-box {
+  display: flex;
+  flex-direction: column;
+   position: absolute;
+  bottom: -200px;   
+  left: 50%;
+  width: 80%;
+  transform: translateX(-50%);
+  padding: 25px 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  gap: 15px;
+  
+
+}
+.filter-item input,
+.filter-item select{
+  width: 100%;
+}
+}
+@media (min-width: 768px) and (max-width: 991px) {
+
+  
 }
