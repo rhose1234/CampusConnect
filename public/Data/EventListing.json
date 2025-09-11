@@ -133,7 +133,7 @@
   },
   {
     "id": 12,
-    "title": "Photography Contest",
+    "title": "Music Contest",
     "date": "2025-11-10",
     "time": "10:00 AM – 4:00 PM",
     "venue": "Campus Grounds",
@@ -141,6 +141,6 @@
     "department": "Media Club",
     "organizer": "Photography Society",
     "image": "https://i.postimg.cc/yYrdtgsX/event11.avif",
-    "description": "A contest encouraging students to capture the essence of campus life through photography."
+    "description": "A contest encouraging students to capture the essence of campus life through music."
   }
 ]
