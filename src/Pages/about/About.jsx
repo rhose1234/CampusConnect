@@ -33,7 +33,7 @@ function About() {
           <img src={icon3} />
            <span> 100+ Schedule </span>
         </div>
-          <button className='button'onclick>Learn more</button>
+          <button className='button' onclick={handleClick}>Learn more</button>
         </p>
         <p className="second">
           <div>
