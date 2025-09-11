@@ -3,7 +3,12 @@
 
   /* font-family: "Poppins", sans-serif;
     font-family: "Mulish", sans-serif; */
-
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none !important;
+}
 body{
   overflow-x: hidden;
 }
@@ -12,4 +17,91 @@ h1, h2,h3,h4, h5, h6{
 }
 p, input, a{
   font-family: "Mulish", sans-serif;
+}
+.scroll{
+  background-color: rgba(0, 0, 0, 0.5) !important;
+  transition: background-color 0.3s ease-in-out !important;
+}
+.navbar{
+   font-family: "Mulish", sans-serif;
+   width: 100% !important;
+}
+.navbar-toggler {
+  background: transparent !important;
+  border: none !important;
+  outline: none !important;
+  box-shadow: none !important; 
+}
+.navbar-toggler:focus,
+.navbar-toggler:active {
+  outline: none !important;
+  box-shadow: none !important;
+  background: transparent !important;
+
+}
+.navbar-toggler .toggler-line {
+  display: block;
+  width: 25px;
+  height: 2px;
+  margin: 5px 0;
+  background-color: #ffffff;
+  border-radius: 2px;
+}
+.navbar ul li{
+
+}
+.navbar li a{
+  list-style-type: none !important;
+ font-family: "Mulish", sans-serif ;
+ font-size: 16px !important;
+ color: #ffffff !important;
+}
+.navbar li a:hover{
+ color: #ffffff !important;
+ 
+}
+.navbar li a.active{
+ color: #F05537 !important;
+}
+
+.navbar .registerBtn{
+    background-color: #F05537 !important;
+    color: #ffffff;
+    border: none ;
+    padding: 10px 28px;
+    font-family: "Mulish", sans-serif ;
+    font-weight: bold;
+
+}
+.navbar-collapse{
+  background: none; 
+
+}
+
+
+@media (min-width: 320px) and (max-width: 480px)  {
+
+.navbar-collapse{
+  background: rgba(158, 164, 165, 0.2); 
+  backdrop-filter: blur(10px);          
+  -webkit-backdrop-filter: blur(10px);   
+  border: 1px solid rgba(255, 255, 255, 0.2); 
+  border-radius: 12px;
+padding: 20px 30px !important;
+border-radius: 50px;
+}
+
+}
+@media (min-width: 768px) and (max-width: 991px) {
+
+  .navbar-collapse{
+  background: rgba(158, 164, 165, 0.2); 
+  backdrop-filter: blur(10px);          
+  -webkit-backdrop-filter: blur(10px);   
+  border: 1px solid rgba(255, 255, 255, 0.2); 
+  border-radius: 12px;
+padding: 20px 30px !important;
+border-radius: 50px;
+  }
+
 }
