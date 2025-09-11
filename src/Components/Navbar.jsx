@@ -63,7 +63,7 @@ window.addEventListener("scroll", handleScroll)
 
       <div className='d-flex gap-4 mt-2'>
       <button className='registerBtn rounded-5'>Register</button>
-      <NavLink className="nav-link" to="/bookmark" href="#"><img src={bookmark} alt='' className='w-75' /></NavLink>
+      <NavLink className="nav-link" to="/bookmarks" href="#"><img src={bookmark} alt=''  /></NavLink>
         
       </div>
     </div>
