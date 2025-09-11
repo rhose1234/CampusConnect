@@ -75,7 +75,7 @@ const UpcomingEvents = ({ filters }) => {
   return (
     <section className=" upcoming-events ">
       {/* HEADER */}
-      <div className="container">
+      <div className="container ">
       <div className="section-header">
         <div className="left-header">
           <h2>
