@@ -56,6 +56,8 @@ export default function Events() {
         return(
         <div className='eventCard bg-white' key={event.id}>
         <img src={event.image} alt='Event Thumbnail' className='image-fluid'/>
+        <Countdown date={event.date} />
+        
 
         <div className='p-3'>
         <h4 className='fw-bold mt-4'>{event.title}</h4>
@@ -70,12 +72,8 @@ export default function Events() {
         <LuCalendarDays />
         <p className=''>{event.date} {event.time}</p>
       </div>
-
-      
-
    </div>
-
-         </div>
+    </div>
 
         )
       })
