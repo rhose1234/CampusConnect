@@ -1,0 +1,70 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.events{
+    background-image: url('../../assets/images/events.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    position: relative;
+    
+}
+.filterCard{
+    position: absolute;
+    transform: translateX(-50%);
+    bottom: 0px;
+    left: 50%;
+}
+.filterForm{
+    display: flex;
+    justify-content: flex-start;
+    gap: 30px !important;
+    flex-direction: row;
+}
+.filterForm input, select{
+    width: 240px;
+    outline: none;
+    padding: 15px 15px;
+    background-color: #ffffff;
+    box-shadow: rgba(17, 17, 26, 0.05) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;
+    border: 1px solid #ffffff;
+    border-radius: 10px;
+}
+.filterForm input::placeholder, select::placeholder{
+   color: #C4C4C4;
+}
+.filterForm button{
+    outline: none;
+    border: none;
+    background-color: #F05537;
+    color: #ffffff;
+    padding: 8px;
+}
+.filterForm button .filterIcon{
+    width: 25px !important;
+    height: 25px !important;
+}
+.eventsContainer{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+.eventCard{
+ background-color: #ffffff;
+}
+.eventCard div.info{
+    display: flex ;
+    justify-content: flex-start ;
+    gap: 10px;
+    flex-direction: row;
+    align-items: center !important;
+    margin-top: 10px;
+}
+.eventCard .info p {
+ margin: 0;
+}
