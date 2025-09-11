@@ -3,9 +3,9 @@ import "./events.css";
 import { CiBookmark } from "react-icons/ci";
 import { IoLocationOutline } from "react-icons/io5";
 import { LuCalendarDays } from "react-icons/lu";
-import { FaBookmark } from "react-icons/fa";
-import { motion } from "framer-motion";
-
+  import { FaBookmark } from "react-icons/fa";
+  import { motion } from "framer-motion";
+  import Countdown from '../../Components/Countdown';
 import Countdown from "../../Components/Countdown.jsx";
 import FilterSection from "../../Components/FilterSection.jsx";
 
