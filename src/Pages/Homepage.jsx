@@ -11,7 +11,7 @@ export default function Homepage() {
   });
 
   return (
-    <div className="home-page">
+    <div className="home-page position-relative">
       {/* HERO SECTION */}
       <section className="hero">
         <div className="hero-overlay">
