@@ -48,10 +48,11 @@ const UpcomingEvents = ({ filters }) => {
     slidesToScroll: 1,
     cssEase: "ease-in-out",
     swipeToSlide: true,
-    responsive: [
-      { breakpoint: 1024, settings: { slidesToShow: 2 } },
-      { breakpoint: 600, settings: { slidesToShow: 1 } },
-    ],
+     responsive: [
+    { breakpoint: 1024, settings: { slidesToShow: 2 } },  
+    { breakpoint: 768, settings: { slidesToShow: 1 } },  
+     { breakpoint: 320, settings: { slidesToShow: 1 } },  
+  ],
   };
 
   const daysToGo = (date) => {
@@ -72,7 +73,7 @@ const UpcomingEvents = ({ filters }) => {
   };
 
   return (
-    <section className="upcoming-events">
+    <section className="upcoming-events ">
       {/* HEADER */}
       <div className="section-header">
         <div className="left-header">

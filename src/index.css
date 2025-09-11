@@ -313,7 +313,19 @@ p, input, a{
   background: none; 
 
 }
+.form-control {
+  border: none !important;
+  box-shadow: none !important;
+}
 
+.form-control:focus {
+  border: none !important;
+  box-shadow: none !important;
+  outline: none !important;
+}
+.footer{
+  font-family: "Mulish", sans-serif ;
+}
 
 @media (min-width: 320px) and (max-width: 480px)  {
 

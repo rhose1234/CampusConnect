@@ -15,7 +15,7 @@ export default function Homepage() {
       {/* HERO SECTION */}
       <section className="hero">
         <div className="hero-overlay">
-          <h1>CAMPUS EVENTS</h1>
+          <h1 className="">CAMPUS EVENTS</h1>
           <button className="explore-btn">Stay updated, Stay involved</button>
         </div>
           <FilterSection onFilter={setFilters} />
