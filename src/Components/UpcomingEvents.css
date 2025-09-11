@@ -1,0 +1,225 @@
+.upcoming-events {
+  padding: 100px 60px;
+  font-family: "Poppins", sans-serif;
+  background: #fafafa;
+}
+
+/* ===== Header ===== */
+.section-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-bottom: 30px;
+}
+
+.left-header {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.section-header h2 {
+  font-size: 32px;
+  font-weight: 700;
+  color: #222;
+  margin: 0;
+}
+
+.section-header h2 .underline {
+  display: block;
+  width: 60px;
+  height: 4px;
+  background: #f05537;
+  margin-top: 6px;
+  border-radius: 2px;
+}
+
+.result-count {
+  font-size: 14px;
+  color: #888;
+}
+
+/* Arrows */
+.arrow-controls {
+  display: flex;
+  gap: 10px;
+}
+
+.arrow {
+  background: #f05537;
+  color: #fff;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: background 0.3s ease;
+}
+
+.arrow:hover {
+  background: #d94326;
+}
+
+
+.upcoming-events .slick-slide {
+  padding: 0 12px;   
+  box-sizing: border-box;
+}
+
+
+.event-card {
+  background: #fff;
+  border-radius: 14px;
+  overflow: hidden;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.08);
+  display: flex;
+  flex-direction: column;
+  margin: 0;          
+}
+
+
+.event-image {
+  position: relative;
+  width: 100%;
+  height: 160px;
+  overflow: hidden;
+}
+
+.event-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.days-tag {
+  position: absolute;
+  bottom: 12px;
+  left: 12px;
+  color: #fff;
+  font-size: 17px;
+  padding: 5px 12px;
+  border-radius: 20px;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+}
+
+.countdown {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+}
+
+
+/* ===== Event Details ===== */
+.event-details {
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.event-details h3 {
+  font-size: 18px;
+  font-weight: 600;
+  color: #222;
+  margin: 0;
+}
+
+.event-details .desc {
+  font-size: 13px;
+  color: #666;
+  line-height: 1.4;
+  margin: 0;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.event-details .location,
+.event-details .date-time {
+  font-size: 12px;
+  color: #444;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+/* ===== Footer ===== */
+.event-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: auto;
+}
+
+.event-footer .tag {
+  font-size: 13px;
+  font-weight: 600;
+  color: #f05537;
+}
+
+.bookmark {
+  background: none;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+  color: #bbb;
+  transition: color 0.3s ease;
+}
+
+.bookmark:hover {
+  color: #f05537;
+}
+
+/* ===== Dots ===== */
+.upcoming-events .slick-dots {
+  position: relative !important;
+  bottom: 0 !important;
+  margin-top: 10px !important;
+  text-align: center;
+}
+
+.upcoming-events .slick-dots li button:before {
+  font-size: 0;
+  width: 8px;
+  height: 8px;
+  background-color: #bbb;
+  border-radius: 50%;
+  content: '';
+  opacity: 0.8;
+}
+
+.upcoming-events .slick-dots li.slick-active button:before {
+  background-color: #f05537;
+  opacity: 1;
+}
+
+
+
+/* ===== See More ===== */
+.see-more {
+  text-align: center;
+  margin-top: 15px;
+}
+
+.see-more button {
+  background: #f05537;
+  color: #fff;
+  border: none;
+  padding: 12px 26px;
+  border-radius: 25px;
+  font-size: 14px;
+  cursor: pointer;
+  font-weight: 500;
+  transition: all 0.3s ease;
+  box-shadow: 0 3px 10px rgba(240, 85, 55, 0.25);
+}
+
+.see-more button:hover {
+  background: #d94326;
+  transform: translateY(-2px);
+}
