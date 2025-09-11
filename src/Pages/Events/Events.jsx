@@ -6,8 +6,6 @@ import { LuCalendarDays } from "react-icons/lu";
 import Countdown from '../../Components/Countdown';
 
 
-
-
 export default function Events() {
 
   const [events, SetEvents] = useState([])

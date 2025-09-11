@@ -13,8 +13,8 @@
   content: "";
   position: absolute;
   inset: 0;
-  background: url("https://i.postimg.cc/d1CBr68s/unsplash-OONm-WOXw-PPE.png") center/cover no-repeat;
-  filter: brightness(50%);   
+  background: url("../assets/images/HEROIMG.svg") center/cover no-repeat;
+  /* filter: brightness(50%);    */
   z-index: 0;
 }
 
@@ -66,4 +66,14 @@
 .filter-section .active {
   background: #0077cc;
   color: white;
+}
+
+@media (min-width: 320px) and (max-width: 480px)  {
+  .hero-overlay h1{
+  font-size: 40px;
+}
+}
+@media (min-width: 768px) and (max-width: 991px) {
+
+  
 }

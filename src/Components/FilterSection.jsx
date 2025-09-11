@@ -58,7 +58,7 @@ const FilterSection = ({ onFilter }) => {
 
       {/* Apply Filter Button */}
       <button className="filter-btn" onClick={handleFilter}>
-        <CiFilter />
+        <CiFilter className="icon" />
       </button>
 
       {/* Reset Button */}
