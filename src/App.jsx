@@ -2,13 +2,12 @@ import React, { useState, useEffect } from "react";
 import { Route, Routes } from "react-router-dom";
 import Navbar from "./Components/Navbar";
 import FeedbackSuccess from "./Components/FeedbackSucess";
-
+import About from "./Pages/About/About"
 import Homepage from "./Pages/Homepage/Homepage";
 import Events from "./Pages/Events/Events";
 import Bookmarks from "./Pages/Bookmark/Bookmark";
 import Contact from "./Pages/Contact/Contact";
 import Gallery from "./Pages/Gallery/Gallery";
-import About from "./Pages/About/About";
 import Footer from "./Components/Footer";
 import Feedback from "./Pages/Feedback/Feedback";
 import Register from "./Pages/Register";
