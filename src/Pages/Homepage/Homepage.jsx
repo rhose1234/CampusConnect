@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
-import FilterSection from "../Components/FilterSection";
-import UpcomingEvents from "../Components/UpcomingEvents";
+import FilterSection from "../../Components/FilterSection";
+import UpcomingEvents from "../../Components/UpcomingEvents";
 import { TfiLocationPin } from "react-icons/tfi";
 import { FaHandshake } from "react-icons/fa6";
 import { RiLightbulbFlashLine } from "react-icons/ri";
@@ -10,7 +10,7 @@ import { GiGlassCelebration } from "react-icons/gi";
 
 
 import "./Homepage.css";
-import LatestNews from "../Components/LatestNews/LatestNews";
+import LatestNews from "../../Components/LatestNews/LatestNews";
 import { Link } from "react-router-dom";
 
 export default function Homepage({ bookmarks, setBookmarks }) {

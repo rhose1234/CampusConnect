@@ -1,12 +1,13 @@
 import React, { useState, useEffect } from "react";
 import { Route, Routes } from "react-router-dom";
 import Navbar from "./Components/Navbar";
-import Homepage from "./Pages/Homepage";
+
 
 import Events from "./Pages/Events/Events";
 import Bookmarks from "./Pages/Bookmark/Bookmark";
 import About from "./Pages/about/About";
 import Footer from "./Components/Footer";
+import Homepage from "./Pages/Homepage/Homepage";
 
 export default function App() {
   const [bookmarks, setBookmarks] = useState([]);
