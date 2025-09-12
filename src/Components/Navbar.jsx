@@ -79,7 +79,9 @@ const closeNavbar= () => {
        <motion.div
             whileHover={{ scale: 1.2 }}
             whileTap={{ scale: 0.8 }} >
-      <button className='registerBtn rounded-5' onClick={closeNavbar} >Register</button>
+              <Link to="/register">
+      <button className='registerBtn rounded-5' >Register</button>
+       </Link>
        </motion.div>
 
        <motion.div
