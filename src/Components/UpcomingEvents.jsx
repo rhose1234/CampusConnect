@@ -9,6 +9,7 @@ import { MdArrowForwardIos, MdArrowBackIosNew } from "react-icons/md";
 import { motion } from "framer-motion";
 import Countdown from "./Countdown";
 import "./UpcomingEvents.css";
+import { Link } from "react-router-dom";
 
 const UpcomingEvents = ({
   events = [],
@@ -29,6 +30,7 @@ const UpcomingEvents = ({
     return matchDate && matchName && matchCategory;
   });
 
+  
   const sliderSettings = {
     dots: true,
     infinite: filteredEvents.length > 3,
@@ -37,9 +39,9 @@ const UpcomingEvents = ({
     slidesToScroll: 1,
     swipeToSlide: true,
      responsive: [
-    { breakpoint: 1024, settings: { slidesToShow: 2 } },  
-    { breakpoint: 768, settings: { slidesToShow: 1 } },  
-     { breakpoint: 320, settings: { slidesToShow: 1 } },  
+    { breakpoint: 1024, settings: { slidesToShow: 2, slidesToScroll : 1 } },  
+    { breakpoint: 768, settings: { slidesToShow: 1, slidesToScroll : 1 } }, 
+     
   ],
   };
 
@@ -53,13 +55,13 @@ const UpcomingEvents = ({
   };
 
   return (
-    <section className=" upcoming-events ">
-      <div className="container ">
+    <section className=" upcoming-events  ">
+      <div className="container mx-auto">
       <div className="section-header">
         <div className="left-header">
-          <h2>
+          <h1 className="fw-bold">
             Upcoming Events <span className="underline"></span>
-          </h2>
+          </h1>
           <span className="result-count">{filteredEvents.length} items found</span>
         </div>
 
@@ -72,6 +74,7 @@ const UpcomingEvents = ({
           </button>
         </div>
       </div>
+
 
       {filteredEvents.length > 0 ? (
         <Slider ref={sliderRef} {...sliderSettings}>
@@ -125,12 +128,15 @@ const UpcomingEvents = ({
         <p className="no-events">No events match your filters.</p>
       )}
 
+      <Link to="/events">
       <div className="see-more">
         <button>See More</button>
       </div>
+      </Link>
       </div>
     </section>
   );
 };
 
 export default UpcomingEvents;
+

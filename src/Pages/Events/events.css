@@ -7,7 +7,10 @@
 
 
 .events {
-  background-image: url('https://i.postimg.cc/3Jrr9WSF/freepik-the-style-is-candid-image-photography-with-natural-16453.png');
+  background-image: linear-gradient(
+                rgba(0, 0, 0, 0.5), 
+                rgba(0, 0, 0, 0.5)
+              ),  url('https://i.postimg.cc/3Jrr9WSF/freepik-the-style-is-candid-image-photography-with-natural-16453.png');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -61,7 +64,7 @@
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   gap: 30px;
-  padding: 0 20px;
+  padding: 0 0px;
 }
 
 
@@ -210,6 +213,7 @@
 
   .event-listing {
     margin-top: 60px;
+    padding: 200px 30px  30px 20px;
   }
 
   .section-header h2 {

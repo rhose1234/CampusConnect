@@ -2,11 +2,12 @@
 
 .hero {
   position: relative;
-  height: 500px;
   display: flex;
+  min-height: 80vh;
   align-items: center;
   justify-content: center;
   text-align: center;
+  padding-bottom: 50px;
 }
 
 .hero::before {
@@ -16,6 +17,9 @@
   background: url("../assets/images/HEROIMG.svg") center/cover no-repeat;
   /* filter: brightness(50%);    */
   z-index: 0;
+  height: 100%;
+  min-height: unset;
+
 }
 
 .hero-overlay {
@@ -36,11 +40,11 @@
   color: #f5f5f5; 
 }
 .explore-btn {
-  padding: 12px 28px;
+  padding: 8px 28px;
   background: rgba(252, 252, 252, 0.1); 
   color: #fff;
   border: 2px solid #fff;
-  border-radius: 12px;
+  border-radius: 30px;
   cursor: pointer;
   font-weight: 400;
   backdrop-filter: blur(4px); 
@@ -67,13 +71,55 @@
   background: #0077cc;
   color: white;
 }
+.featureSection{
+  background-color: #FFDED5;
+}
+.featureSection button{
+  background-color: #F05537;
+  border: none;
+  color: #fff;
+  font-weight: bold;
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+.featureSection .feature{
+  border: 1px solid #f5f5f5;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 
-@media (min-width: 320px) and (max-width: 480px)  {
+}
+
+.featureSection .feature:hover{
+ background-color: #F05537;
+ color: #fff;
+}
+
+.featureSection div.feature .icon{
+  font-size: 50px;
+  color: #F05537;
+}
+.featureSection .feature:hover .icon {
+  color: #fff;
+
+}
+.featureSection .feature p{
+ 
+  font-size: 16px !important;
+  font-weight: bold !important;
+  color: #000000 !important;
+}
+.featureSection .feature:hover p{
+  color: #fff !important;
+}
+@media (max-width: 768px) {
+
   .hero-overlay h1{
-  font-size: 40px;
+  font-size: 35px;
 }
 }
-@media (min-width: 768px) and (max-width: 991px) {
+@media (max-width: 992px) {
+
 
   
 }
