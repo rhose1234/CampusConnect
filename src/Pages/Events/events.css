@@ -1,0 +1,265 @@
+/* ========== Reset ========== */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
+.events {
+  background-image: url('https://i.postimg.cc/3Jrr9WSF/freepik-the-style-is-candid-image-photography-with-natural-16453.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  position: relative;
+}
+
+.event-listing {
+  margin-top: 100px;  
+  margin-bottom: 40px;
+}
+
+.section-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-bottom: 30px;
+}
+
+.left-header {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.section-header h2 {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #222;
+  margin: 0;
+}
+
+.section-header h2 .underline {
+  display: block;
+  width: 60px;
+  height: 4px;
+  background: #f05537;
+  margin-top: 6px;
+  border-radius: 2px;
+}
+
+.result-count {
+  font-size: 14px;
+  color: #888;
+}
+
+
+.events-list {
+  max-width: 1200px;
+  margin: 0 auto 60px auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 30px;
+  padding: 0 20px;
+}
+
+
+.event-card {
+  background: #fff;
+  border-radius: 14px;
+  overflow: hidden;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+  display: flex;
+  flex-direction: column;
+}
+
+.event-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.18);
+}
+
+/* Event Image */
+.event-image {
+  position: relative;
+  height: 220px;
+  overflow: hidden;
+}
+
+.event-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.4s ease;
+}
+
+.event-card:hover .event-image img {
+  transform: scale(1.08);
+}
+
+.days-tag {
+  position: absolute;
+  bottom: 12px;
+  left: 12px;
+  padding: 6px 12px;
+  color: #fff;
+  font-size: 0.85rem;
+  border-radius: 8px;
+  font-weight: 600;
+}
+
+/* Event Details */
+.event-details {
+  padding: 18px;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.event-details h3 {
+  font-size: 1.3rem;
+  font-weight: 700;
+  margin-bottom: 8px;
+  color: #111;
+}
+
+.event-details .desc {
+  font-size: 0.9rem;
+  color: #555;
+  margin-bottom: 14px;
+  line-height: 1.5;
+}
+
+.event-details .location,
+.event-details .date-time {
+  font-size: 0.85rem;
+  color: #444;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin-bottom: 8px;
+}
+
+/* Footer */
+.event-footer {
+  margin-top: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.event-footer .tag {
+  color: #f05537;
+  padding: 6px 12px;
+  font-size: 17px;
+  border-radius: 8px;
+  font-weight: 600;
+}
+
+.bookmark {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #888;
+  transition: color 0.2s ease;
+}
+
+.bookmark:hover {
+  color: #f05537;
+}
+/* ========== Responsive Styles ========== */
+
+/* Tablets (<= 992px) */
+@media (max-width: 992px) {
+  .section-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+
+  .section-header h2 {
+    font-size: 1.8rem;
+  }
+
+  .event-image {
+    height: 200px;
+  }
+
+  .event-details h3 {
+    font-size: 1.2rem;
+  }
+}
+
+/* Mobile (<= 768px) */
+@media (max-width: 768px) {
+  .events {
+    height: auto; /* Allow hero section to shrink */
+    padding: 60px 20px;
+    text-align: center;
+  }
+
+  .events p {
+    width: 100% !important;
+    font-size: 0.95rem;
+  }
+
+  .event-listing {
+    margin-top: 60px;
+  }
+
+  .section-header h2 {
+    font-size: 1.6rem;
+    text-align: center;
+  }
+
+  .result-count {
+    text-align: center;
+    font-size: 13px;
+  }
+
+  .events-list {
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 20px;
+  }
+
+  .event-image {
+    height: 180px;
+  }
+}
+
+/* Small Mobile (<= 480px) */
+@media (max-width: 480px) {
+  .events {
+    padding: 40px 15px;
+  }
+
+  .events h1 {
+    font-size: 1.8rem;
+  }
+
+  .events p {
+    font-size: 0.85rem;
+  }
+
+  .section-header h2 {
+    font-size: 1.4rem;
+  }
+
+  .event-details h3 {
+    font-size: 1rem;
+  }
+
+  .event-footer .tag {
+    font-size: 14px;
+    padding: 4px 10px;
+  }
+
+  .bookmark {
+    font-size: 1.2rem;
+  }
+}

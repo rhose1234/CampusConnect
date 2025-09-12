@@ -1,8 +1,8 @@
-[
+ [
   {
     "id": 1,
     "title": "Musical Bounce 2025",
-    "date": "2025-07-15",
+    "date": "2025-11-15",
     "time": "6:00 PM",
     "venue": "Main Auditorium",
     "category": "Cultural",
@@ -14,7 +14,7 @@
   {
     "id": 2,
     "title": "Codeathon",
-    "date": "2025-08-10",
+    "date": "2025-12-10",
     "time": "9:00 AM – 5:00 PM",
     "venue": "Lab 302",
     "category": "Technical",
@@ -26,7 +26,7 @@
   {
     "id": 3,
     "title": "Workshop on AI",
-    "date": "2025-09-01",
+    "date": "2025-11-01",
     "time": "10:00 AM – 4:00 PM",
     "venue": "Seminar Hall",
     "category": "Technical",
@@ -133,7 +133,7 @@
   },
   {
     "id": 12,
-    "title": "Photography Contest",
+    "title": "Music Contest",
     "date": "2025-11-10",
     "time": "10:00 AM – 4:00 PM",
     "venue": "Campus Grounds",
@@ -141,6 +141,6 @@
     "department": "Media Club",
     "organizer": "Photography Society",
     "image": "https://i.postimg.cc/yYrdtgsX/event11.avif",
-    "description": "A contest encouraging students to capture the essence of campus life through photography."
+    "description": "A contest encouraging students to capture the essence of campus life through music."
   }
 ]

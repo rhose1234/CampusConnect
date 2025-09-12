@@ -1,0 +1,194 @@
+.filter-box {
+  position: absolute;
+  bottom: -40px;   
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  background: #fff;
+  padding: 15px 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  gap: 15px;
+  z-index: 2;
+padding: 15px 20px;
+height: auto; 
+}
+
+
+.filter-item input,
+.filter-item select {
+  padding: 20px 23px;
+  border: none;
+  outline: none;
+  border-radius: 8px;
+  background: #f9f9f9;
+  font-size: 14px;
+  width: 180px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+.filter-item input:focus,
+.filter-item select:focus {
+  background: white;
+  box-shadow: 0 0 0 2px black;
+}
+.filter-item select {
+  appearance: none;          
+  -webkit-appearance: none;
+  -moz-appearance: none;
+
+  background: #f9f9f9 url("data:image/svg+xml;utf8,<svg fill='%23666' height='20' viewBox='0 0 24 24' width='20' xmlns='http://www.w3.org/2000/svg'><path d='M7 10l5 5 5-5z'/></svg>") no-repeat;
+  background-position: right 15px center; 
+  background-size: 16px;
+
+  padding: 12px 45px 12px 15px; 
+  
+
+  border-radius: 8px;
+  border: none;
+  outline: none;
+  font-size: 14px;
+  height: 55px;   
+  box-sizing: border-box;
+}
+
+.filter-item select option {
+  background: #fff;    
+  color: #333;        
+  padding: 20px;       
+  border-bottom: 1px solid #eee;
+  font-family: "Mulish", sans-serif;
+}
+.filter-btn {
+  background: #f05537; 
+  border: none;
+  border-radius: 8px;
+  padding: 12px 20px;
+  cursor: pointer;
+  font-size: 12px;
+  color: white;
+  transition: all 0.3s ease;
+}
+.filter-btn span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+    font-size: 30px;
+}
+.filter-btn .icon{
+  width: 30px;
+  height: 30px;
+}
+.filter-btn:hover {
+  background: #d94326;
+}
+.reset-btn {
+  top: 1px;
+  right: 10px;
+  cursor: pointer;
+  font-size: 17px;
+  color: black;
+  transition: all 0.3s ease;
+}
+
+
+
+@media (max-width: 992px) {
+  .filter-box {
+    flex-wrap: wrap;
+    gap: 12px;
+    padding: 15px;
+  }
+
+  .filter-item input,
+  .filter-item select {
+    width: 160px;
+    font-size: 13px;
+  }
+
+  .filter-btn {
+    font-size: 13px;
+    padding: 10px 16px;
+  }
+
+  .filter-btn span {
+    font-size: 22px;
+  }
+}
+
+
+@media (max-width: 768px) {
+  .filter-box {
+    position: static;     
+    transform: none;
+    margin: 20px auto;
+    flex-direction: column;
+    align-items: stretch;
+    width: 90%;
+    gap: 12px;
+  }
+
+  .filter-item input,
+  .filter-item select {
+    width: 100%;
+    padding: 14px 16px;
+    font-size: 14px;
+  }
+
+  .filter-btn {
+    width: 100%;
+    font-size: 14px;
+    padding: 14px;
+  }
+}
+
+
+@media (max-width: 480px) {
+  .filter-box {
+    padding: 12px;
+    border-radius: 10px;
+    gap: 10px;
+  }
+
+  .filter-item input,
+  .filter-item select {
+    font-size: 13px;
+    padding: 12px 14px;
+  }
+
+  .filter-btn {
+    font-size: 13px;
+    padding: 12px;
+  }
+
+  .reset-btn {
+    font-size: 15px;
+    top: 0;
+    right: 5px;
+  }
+}
+@media (min-width: 320px) and (max-width: 480px)  {
+  .filter-box {
+  display: flex;
+  flex-direction: column;
+   position: absolute;
+  bottom: -200px;   
+  left: 50%;
+  width: 80%;
+  transform: translateX(-50%);
+  padding: 25px 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  gap: 15px;
+  
+
+}
+.filter-item input,
+.filter-item select{
+  width: 100%;
+}
+}
+@media (min-width: 768px) and (max-width: 991px) {
+
+  
+}
