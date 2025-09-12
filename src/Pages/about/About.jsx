@@ -39,13 +39,13 @@ export default function About() {
 
     <div className='col-12 col-md-6'>
       <div className='row g-2'>
-        <div className='col-6'>
+        <div className='col-12 col-md-6'>
           <img src={image1} className='img-fluid h-50' alt='image1' />
           <img src={image2} className='img-fluid h-50 mt-2' alt='image2' />
         </div>
 
      
-        <div className='col-6'>
+        <div className='col-6 d-none d-md-block'>
           <img src={image3} className='img-fluid' alt='image3' />
         </div>
       </div>
@@ -53,7 +53,7 @@ export default function About() {
   </div>
       </div>
 
-      <div className='speakers container py-3 '>
+      <div className='speakers container py-3  my-2'>
          <p className='fw-semibold text-center subheading'>Meet Our Speakers</p>
       <h1 className='fw-bold text-center text-black'>Talented Speakers</h1>
         <div className='row mx-auto mt-5 gap-3 gap-md-0'>
@@ -86,7 +86,7 @@ export default function About() {
         </div>
       </div>
 
-      <div className='mission container py-3 '>
+      <div className='mission container py-3 my-2 '>
   <div className='row mx-auto align-items-center'>
     <div className='col-12 col-md-6'>
       <img src={mission} className='mission w-100'/>

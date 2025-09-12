@@ -3,32 +3,87 @@
     "year": 2019,
     "category": "Technical",
     "title": "Hackathon 2019",
-    "image": "https://i.postimg.cc/3NVD2T0w/campusojude.png"
+    "image": "https://i.postimg.cc/DyHQhrk6/shamin-haky-RIk-i9r-XPao-unsplash.jpg"
+  },
+  {
+    "year": 2020,
+    "category": "Technical",
+    "title": "Online Coding Challenge 2020",
+    "image": "https://i.ibb.co/fYWnQq25/pexels-goumbik-574071.jpg"
+  },
+  {
+    "year": 2021,
+    "category": "Technical",
+    "title": "AI & Machine Learning Workshop 2021",
+    "image": "https://i.ibb.co/G30F4pMk/pexels-mikhail-nilov-9242849.jpg"
   },
   {
     "year": 2022,
-    "category": "Cultural",
-    "title": "Drama Night 2022",
-    "image": "https://i.postimg.cc/rsr1pJQ3/palmtree.png"
+    "category": "Technical",
+    "title": "Robotics Expo 2022",
+    "image": "https://i.postimg.cc/gcQZHPpg/c-f-photography-i-V-o-Bbf-ZNmg-unsplash.jpg"
   },
   {
-    "year": 2022,
-    "category": "Sports",
-    "title": "Inter-College Football",
-    "image": "https://i.postimg.cc/HxQWs8b3/culturalsun.png"
+    "year": 2023,
+    "category": "Technical",
+    "title": "Coding Marathon 2023",
+    "image": "https://i.postimg.cc/W30pDPht/mikhail-fesenko-42q-Doo-TUc4-A-unsplash.jpg"
+  },
+  {
+    "year": 2023,
+    "category": "Technical",
+    "title": "Tech Symposium 2023",
+    "image":"https://i.ibb.co/hT8pNMj/pexels-thisisengineering-3862632.jpg"
   },
   {
     "year": 2024,
     "category": "Technical",
     "title": "Robotics Expo 2024",
-    "image": "https://i.postimg.cc/t4PMcdbr/calabar.png"
+    "image": "https://i.postimg.cc/c4xYNFbf/mathew-schwartz-Lobq-Ng0-BWUo-unsplash.jpg"
   },
   {
     "year": 2024,
-    "category": "Cultural",
-    "title": "Music Fest 2024",
-    "image": "https://i.postimg.cc/yN8r8M9G/fusionfest.png"
-  },  
+    "category": "Technical",
+    "title": "Cybersecurity Bootcamp 2024",
+    "image": "https://i.ibb.co/kgqJh3kK/tech.webp"
+  },
+
+  {
+    "year": 2019,
+    "category": "Sports",
+    "title": "Intra-College Basketball 2019",
+    "image":"https://i.postimg.cc/6pDn6Jj7/kenny-eliason-6m-Rai-W6-DDCM-unsplash.jpg"
+  },
+  {
+    "year": 2020,
+    "category": "Sports",
+    "title": "Inter-College Football 2020",
+    "image": "https://i.postimg.cc/PJz2Yf7F/aaron-jones-Qraf-Akqf-Cv-A-unsplash.jpg"
+  },
+  {
+    "year": 2021,
+    "category": "Sports",
+    "title": "Annual Athletics Meet 2021",
+    "image":"https://i.ibb.co/9mFrv5XQ/sport.jpg"
+  },
+  {
+    "year": 2022,
+    "category": "Sports",
+    "title": "Inter-College Football 2022",
+    "image": "https://i.postimg.cc/5NShX2gZ/andrii-lievientsov-Fb6-LGXM8ys-unsplash.jpg"
+  },
+  {
+    "year": 2023,
+    "category": "Sports",
+    "title": "Inter-College Marathon",
+    "image": "https://i.postimg.cc/3R0XCrkF/brent-olson-a-V5y0n-LNew-unsplash.jpg"
+  },
+  {
+    "year": 2023,
+    "category": "Sports",
+    "title": "Annual Chess Championship",
+    "image": "https://i.postimg.cc/7YNqYgKS/konstantinos-papadopoulos-IMOg9-Er-OOs-U-unsplash.jpg"
+  },
   {
     "year": 2024,
     "category": "Sports",
@@ -36,28 +91,17 @@
     "image": "https://i.postimg.cc/8cNv1SfJ/techbridge.png"
   },
   {
-    "year": 2023,
-    "category": "Cultural",
-    "title": "Art Exhibition 2023",
-    "image": "https://i.postimg.cc/0Q85j2Zs/runathon.png"
-  },
-  {
-    "year": 2023,
-    "category": "Technical",
-    "title": "Coding Marathon 2023",
-    "image": "https://i.postimg.cc/GpjrWnRS/cultural.png"
-  },
-  {
-    "year": 2023,
+    "year": 2025,
     "category": "Sports",
-    "title": "Inter-College Marathon",
-    "image": "https://i.postimg.cc/GpjrWnRS/cultural.png"
+    "title": "National Athletics Championship 2025",
+    "image": "https://i.ibb.co/210Vysxb/sportt.jpg"
   },
+
   {
-    "year": 2021,
-    "category": "Departmental",
-    "title": "Department Meetup 2021",
-    "image": "https://i.postimg.cc/0Q85j2Zs/runathon.png"
+    "year": 2019,
+    "category": "Cultural",
+    "title": "Drama Night 2019",
+    "image": "https://i.postimg.cc/c1XjWbJS/frankie-cordoba-zt-JU-vo-NC7k-unsplash.jpg"
   },
   {
     "year": 2020,
@@ -66,28 +110,88 @@
     "image": "https://i.postimg.cc/yN8r8M9G/fusionfest.png"
   },
   {
-    "year": 2020,
-    "category": "Technical",
-    "title": "Online Coding Challenge 2020",
-    "image": "https://i.postimg.cc/8cNv1SfJ/techbridge.png"
-  },
-  {
     "year": 2021,
-    "category": "Departmental",
-    "title": "Alumni Meet 2021",
-    "image": "https://i.postimg.cc/8cNv1SfJ/techbridge.png"
+    "category": "Cultural",
+    "title": "Dance Night 2021",
+    "image": "https://i.postimg.cc/9f0YjCL3/luis-desiro-gp-Iz1-U5l-QG4-unsplash.jpg"
   },
   {
     "year": 2022,
     "category": "Cultural",
     "title": "Cultural Fest 2022",
-    "image": "https://i.postimg.cc/yN8r8M9G/fusionfest.png"
+    "image": "https://i.ibb.co/FQLLfvj/pexels-valcyo-o-440711278-19227563.jpg"
+  },
+  {
+    "year": 2022,
+    "category": "Cultural",
+    "title": "Drama Night 2022",
+    "image": "https://i.postimg.cc/4NngvmZ9/wes-lewis-T8-Gf-XPBQJDM-unsplash.jpg"
   },
   {
     "year": 2023,
-    "category": "Technical",
-    "title": "Tech Symposium 2023",
-    "image": "https://i.postimg.cc/8cNv1SfJ/techbridge.png"
-  }
+    "category": "Cultural",
+    "title": "Art Exhibition 2023",
+    "image": "https://i.postimg.cc/gk3fHRQr/jony-y-3qo8-Ha-L7s7-A-unsplash.jpg"
+  },
+  {
+    "year": 2023,
+    "category": "Cultural",
+    "title": "Poetry Slam 2023",
+    "image": "https://i.postimg.cc/Ghbj6y94/mikhail-seleznev-Lb-Pf-POT-Jf-U-unsplash.jpg"
+  },
+  {
+    "year": 2024,
+    "category": "Cultural",
+    "title": "Music Fest 2024",
+    "image": "https://i.postimg.cc/wvWr3Q1b/aleksandr-popov-h-Tv8aa-Pzi-OQ-unsplash.jpg"
+  },
 
+  {
+    "year": 2019,
+    "category": "Departmental",
+    "title": "Orientation 2019",
+    "image":"https://i.postimg.cc/NfsYPdcZ/kim-yoonsun-Kdz-TJm-O107g-unsplash.jpg"
+  },
+  {
+    "year": 2020,
+    "category": "Departmental",
+    "title": "Freshers’ Orientation 2020",
+    "image":"https://i.postimg.cc/T3127t6C/youversion-5mt7l9-ANk50-unsplash.jpg"
+  },
+  {
+    "year": 2021,
+    "category": "Departmental",
+    "title": "Graduation Night 2023",
+    "image": "https://i.postimg.cc/63BtJcZ7/moses-malik-roldan-HPHWtn-UL0-OA-unsplash.jpg"
+  },
+  {
+    "year": 2021,
+    "category": "Departmental",
+    "title": "Alumni Meet 2021",
+    "image": "https://i.ibb.co/tT9qKqLm/pexels-rdne-6172538.jpg"
+  },
+  {
+    "year": 2022,
+    "category": "Departmental",
+    "title": "Faculty Retirement 2022",
+    "image": "https://i.postimg.cc/VNKrhJrc/steward-masweneng-Rx-Nk-Gf-Sm8h-Y-unsplash.jpg"
+  },
+  {
+    "year": 2023,
+    "category": "Departmental",
+    "title": "Research Summit 2023",
+    "image": "https://i.postimg.cc/j254w6zC/product-school-XZkk5x-T8-Xrk-unsplash.jpg"
+  },
+  {
+    "year": 2024,
+    "category": "Departmental",
+    "title": "Research Paper Presentation 2024",
+    "image": "https://i.postimg.cc/0QDLsYNJ/scott-graham-5f-Nm-Wej4t-AA-unsplash.jpg"
+  },
+  {
+    "year": 2025,
+    "category": "Departmental",
+    "title": "Innovation Fair 2025",
+    "image":"https://i.ibb.co/bRvFtBMR/departmental.webp"
+  }
 ]
