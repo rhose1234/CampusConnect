@@ -8,6 +8,7 @@ import santigo from '../../assets/images/SATIGO.png'
 import icon1 from '../../assets/images/icon1.png'
 import icon2 from '../../assets/images/icon2.png'
 import icon3 from '../../assets/images/icon3.png'
+import mission from '../../assets/images/mission.png'
 
 function About() {
   const handleClick = () =>{
@@ -23,7 +24,7 @@ function About() {
       <section className="section-2">
         <p>
         <p className="about-campus-connect">About Campus Connect</p>
-        <h3 className="mini-head">Sed malesuada massa lacinia, dictum dui a, dignissim sem.</h3>
+        <h3 className="mini-head">Campus Connect.</h3>
         <p className="mini-head-2">Campus Connect is the ultimate hub for students. Whether you're looking for a study group, a ride home for the holidays, or the best place to grab a late-night snack, we've got you covered</p>
         <div className="icons">
           <img src={icon1} />
@@ -33,7 +34,7 @@ function About() {
           <img src={icon3} />
            <span> 100+ Schedule </span>
         </div>
-          <button className='button'onclick>Learn more</button>
+          <button className='button' onclick={handleClick}>Learn more</button>
         </p>
         <p className="second">
           <div>
@@ -63,6 +64,13 @@ function About() {
          <h4>SANTIGO ABENA</h4>
         <span>Senior Visual Designer</span>
       </p>
+      </div>
+     </section>
+     <section className="section-5">
+      <img src={mission}/>
+      <div className="mission">
+      <h2>Our Mission and Values</h2>
+      <p>Our mission is simple: to ensure students and faculty have easy acces and information relating to different college events</p>
       </div>
      </section>
      <section className="section-4">

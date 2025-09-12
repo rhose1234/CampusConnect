@@ -7,6 +7,7 @@
  padding: none;
  margin: none;
  box-sizing: border-box;  
+ transition: 1s;
 } 
 h1, h2,h3,h4,h5,h6{
   font-family: "Poppins", sans-serif
@@ -21,7 +22,7 @@ h1, h2,h3,h4,h5,h6{
   background-size: cover;
   background-repeat: no-repeat;
   background-image: url(../src/assets/images/AboutImage.png);
-  background-color: rgba(0, 0, 0, 0.484);
+  background-color: rgba(0, 0, 0, 0.651);
   background-blend-mode: darken;
 }
 .about-us{
@@ -30,7 +31,7 @@ h1, h2,h3,h4,h5,h6{
   font-weight: 900;
   font-size: 4rem;
   padding-left: 50px;
-  padding-top: 150px;
+  padding-top: 200px;
 }
 .about-us-heading{
   color: white;
@@ -44,7 +45,6 @@ h1, h2,h3,h4,h5,h6{
   display: flex;
   flex-direction: row;
   margin-left: 100px;
-  margin-top: -50px;
   font-weight: 900;
   color: white;
 }
@@ -60,6 +60,7 @@ h1, h2,h3,h4,h5,h6{
 .section-2{
   display: flex;
   flex-direction: row;
+  margin-top: 100px;
 }
 .about-campus-connect{
   padding-left: 50px;
@@ -103,6 +104,11 @@ h1, h2,h3,h4,h5,h6{
   font-weight: 800;
   font-size: 15px;
   margin-left: 150px;
+}
+.button:hover{
+  color: tomato;
+  background-color: transparent;
+  border: 1.5px solid orangered;
 }
 .second{
   padding: 10px;
@@ -148,42 +154,47 @@ h1, h2,h3,h4,h5,h6{
   justify-content: space-around;
 }
 .talented{
- background-color:  rgb(255, 68, 0);
+ background-color:  #f05537;
  width: 300px;
  border-radius: 10px;
  text-align: center;
  justify-content: center;
- padding: 10px;
  border-radius: 10px;
  box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.432);
 }
+.talented:hover{
+  transform: scale(1.05);
+}
+
 .talented img{
   height: 300px;
-  width: 280px;;
+  width: 300px;;
   border-radius:10px; 
 }
 .talented h4{
-  background-color: orangered;
   font-family:  "Mulish",sans-serif;;
   color: white;
+  padding: 10px;
 }
 .talented span{
-  background-color: orangered;
   font-family:  "Mulish",sans-serif;;
   color: white; 
+  padding: 5px;
 }
 .testimonial{
   font-family: "Mulish",sans-serif;
   color:rgba(0, 0, 0, 0.349);
   font-size: 2rem;
-  margin-left: 50px;
+  margin-left: 0px;
   font-weight: 500;
 }
 .section-4{
-  margin-top: 200px;
+  margin-top: 100px;
   background-color: rgba(198, 198, 198, 0.285);
   display: flex;
   flex-direction: row;
+  margin-bottom: 100px;
+  padding:10px;
 }
 .left-side{
   color:black;
@@ -198,7 +209,7 @@ h1, h2,h3,h4,h5,h6{
 }
 .left-side h1{
   font-size: 2rem;
-  font-weight: 900;
+  font-weight: 700;
 }
 .right-side{
   display: flex;
@@ -243,7 +254,25 @@ h1, h2,h3,h4,h5,h6{
   font-family: "Mulish",sans-serif;
   font-weight: 700;
   font-size: 1rem;
-}*{
+
+}
+.section-5{
+  padding:10px;
+  display:flex;
+  flex-direction:row;
+}
+.section-5 img{
+  width:400px;
+  padding:10px;
+}
+.section-5 div{
+  display: flex;
+  flex-direction: column;
+  margin-top: 200px;
+  margin-left: 100px;
+  width: 50%;
+}
+*{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -366,4 +395,565 @@ padding: 20px 30px !important;
 border-radius: 50px;
   }
 
+}
+@media (min-width: 320px) and (max-width: 480px) {
+  
+.section-1{
+        width: 910px;
+        height: 80vh;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-image: url(/src/assets/images/AboutImage.png);
+        background-color: rgba(0, 0, 0, 0.651);
+        background-blend-mode: darken;
+}
+.about-us{
+  color: rgba(255, 255, 255, 0.263);
+  font-family: "Mulish",sans-serif;
+  font-weight: 900;
+  font-size: 4rem;
+  padding-left: 50px;
+  padding-top: 200px;
+}
+.about-us-heading{
+  color: white;
+  font-family: "Mulish",sans-serif;
+  font-weight: 900;
+  font-size: 4rem;
+  padding-left: 100px;
+
+}
+.second-heading{
+  display: flex;
+  flex-direction: row;
+  margin-left: 100px;
+  font-weight: 900;
+  color: white;
+}
+.second-heading p{
+  font-family:"Mulish",sans-serif;
+  font-size: 1.5rem ;
+  padding-right: 40px;
+ 
+}
+.second-heading .About-Us{
+   color: orangered;
+}
+.section-2{
+        display: flex;
+        flex-direction: column;
+        margin-top: 100px;
+}
+.about-campus-connect{
+  padding-left: 50px;
+  padding-bottom: 50px;
+  color: orangered;
+  font-family:"Mulish",sans-serif ;
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-left: 280px;
+  width:400px;
+}
+.mini-head{
+  font-family: "Mulish",sans-serif;
+  padding-left: 50px;
+  width: 900px;
+  text-align: center;
+}
+.mini-head-2{
+  font-family: "Mulish",sans-serif;
+  padding-left: 50px;
+   width: 900px;
+   padding-top: 30px;
+   text-align: center;
+}
+.icons{
+  padding-left: 50px;
+  font-family: "Mulish",sans-serif;
+  font-size: 1rem;
+  padding-bottom: 10px;
+  width: 900px;
+  text-align: center;
+}
+.icons img{
+  width: 5%;
+  padding: 2px;
+}
+.icons span{
+  width: 5%;
+  font-weight: bolder;
+}
+.button{
+  background-color: orangered;
+  padding: 15px 30px;
+  border-radius: 10px;
+  border: none;
+  color: white;
+  font-family: "Mulish",sans-serif ;
+  font-weight: 800;
+  font-size: 15px;
+  margin-left: 150px;
+  margin-left: 400px;
+  width: 150px;
+}
+.button:hover{
+  color: tomato;
+  background-color: transparent;
+  border: 1.5px solid orangered;
+}
+.second{
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  margin-left: 150px;
+}
+.second div img{
+  width: 300px;
+  padding: 10px;
+  height: 200px;
+  border-radius: 20px;
+}
+.second  img{
+  width: 300px;
+  padding: 10px;
+  height: auto;
+   border-radius: 20px;
+}
+.section-3{
+  padding: 5px;
+}
+.Speaker{
+  font-family: "Mulish",sans-serif;
+  color:rgba(0, 0, 0, 0.42);
+  font-size: 2rem;
+  margin-left: 50px;
+}
+.h6{
+  text-align: center;
+  color:orangered;;
+  font-family: "Mulish",sans-serif;
+  font-size: 1rem;
+  width: 900px;
+}
+.h2{
+   text-align: center;
+  color:black;
+  font-family: "Mulish",sans-serif;
+  font-size: 2rem;
+  width:900px;
+}
+.talented-group{
+  display:flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.talented{
+ background-color:  #f05537;
+ width: 200px;
+ margin: 0px 50px;
+ border-radius: 10px;
+ text-align: center;
+ justify-content: center;
+ border-radius: 10px;
+ box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.432);
+}
+.talented:hover{
+  transform: scale(1.05);
+}
+
+.talented img{
+  height: 200px;
+  width: 200px;;
+  border-radius:10px; 
+}
+.talented h4{
+  font-family:  "Mulish",sans-serif;;
+  color: white;
+  padding: 10px;
+}
+.talented span{
+  font-family:  "Mulish",sans-serif;;
+  color: white; 
+  padding: 5px;
+}
+.testimonial{
+  font-family: "Mulish",sans-serif;
+  color:rgba(0, 0, 0, 0.349);
+  font-size: 2rem;
+  margin-left: 0px;
+  font-weight: 500;
+}
+.section-4{
+  margin-top: 100px;
+  background-color: rgba(198, 198, 198, 0.285);
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 100px;
+  padding:10px;
+}
+.left-side{
+  color:black;
+  font-family: "Mulish",sans-serif;
+  margin-left: 40px;
+  border-right: 3px solid rgba(255, 140, 140, 0.612);
+  width: 500px;
+  padding-right: 100px;
+}
+.left-side h3{
+  color: orangered;
+  font-size: 2rem;
+}
+.left-side h1{
+  font-size: 2rem;
+  font-weight: 700;
+}
+.right-side{
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  background-color: white;
+  border-top: 3px solid  rgba(255, 140, 140, 0.612);
+}
+.right-side img{
+  height: 300px;
+  width: 300px;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+.right-side div{
+  width: 330px;
+  padding-top: 50px;
+  margin-left: 10px;
+}
+.right-side div .asterik{
+  font-size: 6rem;
+  font-weight: 900;
+  font-family: "Mulish",sans-serif;
+  margin-top: 0px;
+  text-align: center;
+  color: rgba(94, 94, 94, 0.685);
+  margin-bottom:-60px;
+}
+.right-side div .head{
+  text-align: center;
+  font-family: "Mulish",sans-serif;
+  font-weight: 800;
+  font-size: 2rem;
+  width:300px;
+}
+.right-side div .neck{
+  text-align: center;
+  font-family: sans-serif;
+  font-weight: 700;
+  font-size: 1rem;
+}
+.right-side div .chest{
+   text-align: center;
+  font-family: "Mulish",sans-serif;
+  font-weight: 700;
+  font-size: 1rem;
+
+}
+.section-5{
+  padding:10px;
+  display:flex;
+  flex-direction:row;
+}
+.section-5 img{
+  width:400px;
+  padding:10px;
+  height: 600px;
+  margin-top: 100px;
+}
+.section-5 div{
+  display: flex;
+  flex-direction: column;
+  margin-top: 300px;
+  margin-left: 50px;
+  width: 500px;
+}
+.section-5 div h2{
+  width: 300px;
+  }
+
+}
+@media (min-width: 768px) and (max-width: 991px){
+    
+.section-1{
+        width: 200vh;
+        height: 80vh;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-image: url(/src/assets/images/AboutImage.png);
+        background-color: rgba(0, 0, 0, 0.651);
+        background-blend-mode: darken;
+}
+.about-us{
+  color: rgba(255, 255, 255, 0.263);
+  font-family: "Mulish",sans-serif;
+  font-weight: 900;
+  font-size: 4rem;
+  padding-left: 50px;
+  padding-top: 200px;
+}
+.about-us-heading{
+  color: white;
+  font-family: "Mulish",sans-serif;
+  font-weight: 900;
+  font-size: 4rem;
+  padding-left: 100px;
+
+}
+.second-heading{
+  display: flex;
+  flex-direction: row;
+  margin-left: 100px;
+  font-weight: 900;
+  color: white;
+}
+.second-heading p{
+  font-family:"Mulish",sans-serif;
+  font-size: 1.5rem ;
+  padding-right: 40px;
+ 
+}
+.second-heading .About-Us{
+   color: orangered;
+}
+.section-2{
+        display: flex;
+        flex-direction: column;
+        margin-top: 100px;
+}
+.about-campus-connect{
+  padding-left: 50px;
+  padding-bottom: 50px;
+  color: orangered;
+  font-family:"Mulish",sans-serif ;
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-left: 280px;
+  width:400px;
+}
+.mini-head{
+  font-family: "Mulish",sans-serif;
+  padding-left: 50px;
+  width: 900px;
+  text-align: center;
+}
+.mini-head-2{
+  font-family: "Mulish",sans-serif;
+  padding-left: 50px;
+   width: 900px;
+   padding-top: 30px;
+   text-align: center;
+}
+.icons{
+  padding-left: 50px;
+  font-family: "Mulish",sans-serif;
+  font-size: 1rem;
+  padding-bottom: 10px;
+  width: 900px;
+  text-align: center;
+}
+.icons img{
+  width: 5%;
+  padding: 2px;
+}
+.icons span{
+  width: 5%;
+  font-weight: bolder;
+}
+.button{
+  background-color: orangered;
+  padding: 15px 30px;
+  border-radius: 10px;
+  border: none;
+  color: white;
+  font-family: "Mulish",sans-serif ;
+  font-weight: 800;
+  font-size: 15px;
+  margin-left: 150px;
+  margin-left: 400px;
+  width: 150px;
+}
+.button:hover{
+  color: tomato;
+  background-color: transparent;
+  border: 1.5px solid orangered;
+}
+.second{
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  margin-left: 150px;
+}
+.second div img{
+  width: 300px;
+  padding: 10px;
+  height: 200px;
+  border-radius: 20px;
+}
+.second  img{
+  width: 300px;
+  padding: 10px;
+  height: auto;
+   border-radius: 20px;
+}
+.section-3{
+  padding: 5px;
+}
+.Speaker{
+  font-family: "Mulish",sans-serif;
+  color:rgba(0, 0, 0, 0.42);
+  font-size: 2rem;
+  margin-left: 50px;
+}
+.h6{
+  text-align: center;
+  color:orangered;;
+  font-family: "Mulish",sans-serif;
+  font-size: 1rem;
+  width: 900px;
+}
+.h2{
+   text-align: center;
+  color:black;
+  font-family: "Mulish",sans-serif;
+  font-size: 2rem;
+  width:900px;
+}
+.talented-group{
+  display:flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.talented{
+ background-color:  #f05537;
+ width: 200px;
+ margin: 0px 50px;
+ border-radius: 10px;
+ text-align: center;
+ justify-content: center;
+ border-radius: 10px;
+ box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.432);
+}
+.talented:hover{
+  transform: scale(1.05);
+}
+
+.talented img{
+  height: 200px;
+  width: 200px;;
+  border-radius:10px; 
+}
+.talented h4{
+  font-family:  "Mulish",sans-serif;;
+  color: white;
+  padding: 10px;
+}
+.talented span{
+  font-family:  "Mulish",sans-serif;;
+  color: white; 
+  padding: 5px;
+}
+.testimonial{
+  font-family: "Mulish",sans-serif;
+  color:rgba(0, 0, 0, 0.349);
+  font-size: 2rem;
+  margin-left: 0px;
+  font-weight: 500;
+}
+.section-4{
+  margin-top: 100px;
+  background-color: rgba(198, 198, 198, 0.285);
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 100px;
+  padding:10px;
+}
+.left-side{
+  color:black;
+  font-family: "Mulish",sans-serif;
+  margin-left: 40px;
+  border-right: 3px solid rgba(255, 140, 140, 0.612);
+  width: 500px;
+  padding-right: 100px;
+}
+.left-side h3{
+  color: orangered;
+  font-size: 2rem;
+}
+.left-side h1{
+  font-size: 2rem;
+  font-weight: 700;
+}
+.right-side{
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  background-color: white;
+  border-top: 3px solid  rgba(255, 140, 140, 0.612);
+}
+.right-side img{
+  height: 300px;
+  width: 300px;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+.right-side div{
+  width: 330px;
+  padding-top: 50px;
+  margin-left: 10px;
+}
+.right-side div .asterik{
+  font-size: 6rem;
+  font-weight: 900;
+  font-family: "Mulish",sans-serif;
+  margin-top: 0px;
+  text-align: center;
+  color: rgba(94, 94, 94, 0.685);
+  margin-bottom:-60px;
+}
+.right-side div .head{
+  text-align: center;
+  font-family: "Mulish",sans-serif;
+  font-weight: 800;
+  font-size: 2rem;
+  width:300px;
+}
+.right-side div .neck{
+  text-align: center;
+  font-family: sans-serif;
+  font-weight: 700;
+  font-size: 1rem;
+}
+.right-side div .chest{
+   text-align: center;
+  font-family: "Mulish",sans-serif;
+  font-weight: 700;
+  font-size: 1rem;
+
+}
+.section-5{
+  padding:10px;
+  display:flex;
+  flex-direction:row;
+}
+.section-5 img{
+  width:400px;
+  padding:10px;
+  height: 600px;
+  margin-top: 100px;
+}
+.section-5 div{
+  display: flex;
+  flex-direction: column;
+  margin-top: 300px;
+  margin-left: 50px;
+  width: 500px;
+}
+.section-5 div h2{
+  width: 300px;
+  }
 }
