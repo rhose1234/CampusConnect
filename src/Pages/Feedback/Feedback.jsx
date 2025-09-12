@@ -36,9 +36,6 @@ const [rating, setRating] = React.useState(0);
       >
         <div className="hero-content">
           <h1>Help Us Improve</h1>
-          <p className="hero-subtext">
-            Join us for an exciting experience at campus connect Fill out the form below to secure your spot.
-          </p>
           <p className="hero-subtext-small">
             Please take a moment to share your thoughts with us.
           </p>
