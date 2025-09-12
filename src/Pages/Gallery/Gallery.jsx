@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import firstCarousel from "../../assets/images/firstcarousel.png";
 import secCarousel from "../../assets/images/seccarousel.png";
-import thirdCarousel from "../../assets/images/thirdcarousel.png";
+// import thirdCarousel from "../../assets/images/thirdcarousel.png";
 import fourthcarousel from "../../assets/images/fourthcarousel.jpg";
 import fifthcarousel from "../../assets/images/fifthcarousel.jpg";
 import sixthcarousel from "../../assets/images/sixthcarousel.jpg";
@@ -37,7 +37,7 @@ const GalleryPage = () => {
   const carouselImages = [
     firstCarousel,
     secCarousel,
-    thirdCarousel,
+    // thirdCarousel,
     fourthcarousel,
     fifthcarousel,
     sixthcarousel,
