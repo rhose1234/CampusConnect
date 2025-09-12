@@ -101,7 +101,7 @@ height: auto;
   }
 
   .filter-items input,
-  .filter-itemd select {
+  .filter-items select {
     width: 250px;
     font-size: 13px;
   }
