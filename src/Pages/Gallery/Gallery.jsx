@@ -62,7 +62,7 @@ const GalleryPage = () => {
             display: "flex",
             alignItems: "center",
             justifyContent: "center",
-            Index: 1000,
+            zIndex: 1000,
           }}
           onClick={() => setPopupImg(null)}
         >
