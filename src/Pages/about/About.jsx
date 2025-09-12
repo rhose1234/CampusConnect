@@ -8,6 +8,7 @@ import santigo from '../../assets/images/SATIGO.png'
 import icon1 from '../../assets/images/icon1.png'
 import icon2 from '../../assets/images/icon2.png'
 import icon3 from '../../assets/images/icon3.png'
+import mission from '../../assets/images/mission.png'
 
 function About() {
   const handleClick = () =>{
@@ -63,6 +64,13 @@ function About() {
          <h4>SANTIGO ABENA</h4>
         <span>Senior Visual Designer</span>
       </p>
+      </div>
+     </section>
+     <section className="section-5">
+      <img src={mission}/>
+      <div className="mission">
+      <h2>Our Mission and Values</h2>
+      <p>Our mission is simple: to provide the highest level of service, integrity, and expertise in the real estate market. We are committed to putting our clients first and ensuring that their real estate experience is smooth, successful, and enjoyable. Our core values of transparency, honesty, and customer-centricity drive everything we do.</p>
       </div>
      </section>
      <section className="section-4">
