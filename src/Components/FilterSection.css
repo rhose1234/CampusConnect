@@ -15,8 +15,8 @@ height: auto;
 }
 
 
-.filter-item input,
-.filter-item select {
+.filter-items input,
+.filter-items select {
   padding: 20px 23px;
   border: none;
   outline: none;
@@ -27,12 +27,12 @@ height: auto;
   box-shadow: 0 2px 4px rgba(0,0,0,0.05);
 }
 
-.filter-item input:focus,
-.filter-item select:focus {
+.filter-items input:focus,
+.filter-items select:focus {
   background: white;
   box-shadow: 0 0 0 2px black;
 }
-.filter-item select {
+.filter-items select {
   appearance: none;          
   -webkit-appearance: none;
   -moz-appearance: none;
@@ -52,7 +52,7 @@ height: auto;
   box-sizing: border-box;
 }
 
-.filter-item select option {
+.filter-items select option {
   background: #fff;    
   color: #333;        
   padding: 20px;       

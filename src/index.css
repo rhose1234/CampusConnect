@@ -16,6 +16,7 @@ h1, h2,h3,h4,h5,h6{
   padding: none;
   margin: none;
   box-sizing: border-box;
+  overflow-x: hidden !important;
 }
 .section-1{
   height: 70vh;
@@ -255,21 +256,7 @@ h1, h2,h3,h4,h5,h6{
   margin-left: 100px;
   width: 50%;
 }
-*{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  text-decoration: none !important;
-}
-body{
-  overflow-x: hidden;
-}
-h1, h2,h3,h4, h5, h6{
-  font-family: "Poppins", sans-serif;
-}
-p, input, a{
-  font-family: "Mulish", sans-serif;
-}
+
 .scroll{
   background-color: rgba(0, 0, 0, 0.5) !important;
   transition: background-color 0.3s ease-in-out !important;

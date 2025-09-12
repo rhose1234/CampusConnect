@@ -24,7 +24,7 @@ const FilterSection = ({ onFilter }) => {
   return (
     <div className="filter-box">
       {/* Date */}
-      <div className="filter-item">
+      <div className="filter-items">
         <input
           type="date"
           value={date}
@@ -33,7 +33,7 @@ const FilterSection = ({ onFilter }) => {
       </div>
 
       {/* Event Name */}
-      <div className="filter-item">
+      <div className="filter-items">
         <input
           type="text"
           placeholder="Event Name"
@@ -43,7 +43,7 @@ const FilterSection = ({ onFilter }) => {
       </div>
 
       {/* Category */}
-      <div className="filter-item">
+      <div className="filter-items">
         <select
           value={category}
           onChange={(e) => setCategory(e.target.value)}
