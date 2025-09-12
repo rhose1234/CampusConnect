@@ -10,7 +10,7 @@ import Gallery from "./Pages/Gallery/Gallery";
 import Footer from "./Components/Footer";
 import Feedback from "./Pages/Feedback/Feedback";
 import Register from "./Pages/Register";
-import About from "./Pages/About/About";
+import About from "./Pages/about/About";
 export default function App() {
   const [bookmarks, setBookmarks] = useState([]);
   const [events, setEvents] = useState([]);
