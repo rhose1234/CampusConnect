@@ -1,0 +1,62 @@
+/* src/Pages/FeedbackSuccess.css */
+
+.success-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 80vh; /* full height minus header/footer if any */
+  background: #f9f9f9;
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.success-page img {
+  width: 150px;
+  max-width: 40%;
+  margin-bottom: 30px;
+}
+
+.success-page h1 {
+  font-size: 2.5rem;
+  color: #222;
+  margin-bottom: 15px;
+}
+
+.success-page p {
+  font-size: 1.2rem;
+  color: #555;
+  margin-bottom: 25px;
+  max-width: 500px;
+}
+
+.success-page button {
+  padding: 12px 35px;
+  background-color: #f05537;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.success-page button:hover {
+  background-color: #d9432c;
+  transform: scale(1.05);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .success-page h1 {
+    font-size: 2rem;
+  }
+
+  .success-page p {
+    font-size: 1rem;
+  }
+
+  .success-page img {
+    width: 120px;
+  }
+}

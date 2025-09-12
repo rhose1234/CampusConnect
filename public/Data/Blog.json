@@ -1,0 +1,23 @@
+ [
+  {
+    "id": 1,
+    "title": "Exercise Daily",
+    "description": "Exercising is a way of strenghtening ourself physically",
+    "time" : "5-min read",
+    "image" : "https://i.postimg.cc/fWfZY464/event8.avif"
+  },
+  {
+    "id": 2,
+    "title": "Will AI take my Job",
+    "description": "AI is not here to take your job, it is here to help you",
+    "time" : "5-min read",
+    "image" : "https://i.postimg.cc/prHWRR4C/event7.webp"
+  },
+    {
+    "id": 3,
+    "title": "What is Music",
+    "description": "Music is a pleasant sound that pleases the ear",
+    "time" : "5-min read",
+    "image" : "https://i.postimg.cc/yYrdtgsX/event11.avif"
+  }
+]
