@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 import logo from "../assets/images/logo.svg"
 import linkedin from "../assets/images/linkedin.svg"
 import twitter from "../assets/images/twitter.svg"
-import instagram from "../assets/images/instagram.svg"
+// import instagram from "../assets/images/instagram.svg"
 import facebook from "../assets/images/facebook.svg"
 
 export default function Footer() {
@@ -54,7 +54,7 @@ export default function Footer() {
           <Link to="/"><img src={linkedin} alt="linkedin" /></Link>
           <Link to="/"><img src={facebook} alt="facebook" /></Link>
           <Link to="/"><img src={twitter} alt="twitter" /></Link>
-          <Link to="/"><img src={instagram} alt="instagram" /></Link>
+          {/* <Link to="/"><img src={instagram} alt="instagram" /></Link> */}
         </div>
       </div>
 
