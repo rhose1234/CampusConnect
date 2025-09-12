@@ -38,7 +38,7 @@ export default function App() {
             <Homepage bookmarks={bookmarks} setBookmarks={setBookmarks} />
           }
         />
-        <Route path="/about" element={<About />} />
+        {/* <Route path="/about" element={<About />} /> */}
 
         <Route
           path="/events"
