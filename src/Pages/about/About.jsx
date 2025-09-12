@@ -1,11 +1,9 @@
 import React from 'react'
 import "./About.css";
 
-
 import image1 from "../../assets/images/image1.png"
 import image2 from "../../assets/images/image2.png"
 import image3 from "../../assets/images/image3.png"
-
 import image4 from  "../../assets/images/jacob2.png"
 import jacob from "../../assets/images/JACOB.png"
 import satigo from "../../assets/images/jacob3.png"
@@ -110,9 +108,6 @@ export default function About() {
     
   </div>
       </div>
-
-       
-      
     </>
   )
 }
