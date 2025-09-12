@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import { Route, Routes } from "react-router-dom";
 import Navbar from "./Components/Navbar";
 import Homepage from "./Pages/Homepage";
+
 import Events from "./Pages/Events/Events";
 import Bookmarks from "./Pages/Bookmark/Bookmark";
 import About from './Pages/about/About'
@@ -43,6 +44,10 @@ export default function App() {
         <Route
           path="/feedback"
           element={<Feedback />}
+        />
+        <Route
+          path="/about"
+          element={<About events={events} bookmarks={bookmarks} setBookmarks={setBookmarks} />}
         />
         <Route
           path="/bookmarks"

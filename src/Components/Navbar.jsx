@@ -3,6 +3,10 @@ import logo from "../assets/images/logo.svg"
 import { Link, NavLink} from 'react-router-dom'
 import { useEffect, useState } from 'react'
 import bookmark from "../assets/images/bookmark.svg"
+import { motion } from "framer-motion";
+
+
+
 
 export default function Navbar() { 
   const [scroll, setScroll] = useState(false)
@@ -24,8 +28,8 @@ window.addEventListener("scroll", handleScroll)
     <>
      <nav className={`navbar navbar-expand-lg  position-fixed py-3 w-100 z-3 ${ scroll ? "scroll" : "bg-transparent" } `}>
   <div className="container">
-    <Link className="navbar-brand" href="#">
-        <img src={logo} alt='logo' className='w-50' />
+    <Link className="navbar-brand" to="/">
+        <img src={logo} alt='logo' className='logo' />
     </Link>
 
     <button 
@@ -65,8 +69,16 @@ window.addEventListener("scroll", handleScroll)
       </ul>
 
       <div className='d-flex gap-4 mt-2'>
+       <motion.div
+            whileHover={{ scale: 1.2 }}
+            whileTap={{ scale: 0.8 }} >
       <button className='registerBtn rounded-5'>Register</button>
+       </motion.div>
+
+       <motion.div
+            whileHover={{ scale: 1.2 }} >
       <NavLink className="nav-link" to="/bookmarks" href="#"><img src={bookmark} alt=''  /></NavLink>
+        </motion.div>
         
       </div>
     </div>

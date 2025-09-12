@@ -10,14 +10,14 @@ import facebook from "../assets/images/facebook.svg"
 export default function Footer() {
   return (
     <>
-    <div className="footer bg-black py-5">
-  <div className="container mx-auto ">
-    <div className="row d-flex justify-content-between">
+    <div className="footer bg-black py-5 ">
+  <div className="container pt-5 ">
+    <div className="row  mx-auto d-flex justify-content-between">
       
       {/* first column */}
       <div className="col-12 col-md-4 d-flex flex-column mt-4  ">
         <Link className="navbar-brand" to="/">
-          <img src={logo} alt="logo" className="w-50" />
+          <img src={logo} alt="logo" className="logo" />
         </Link>
         <p className="text-white mb-3 mt-3">Stay updated, Stay involved</p>
         <form className="position-relative w-100">
@@ -36,7 +36,7 @@ export default function Footer() {
       </div>
 
       {/* second column*/}
-      <div className="col-12 col-md-4 d-flex flex-column gap-2 mt-4 w-auto">
+      <div className="col-12 col-md-auto d-flex flex-column gap-2 mt-4 w-md-auto ">
         <h5 className="text-secondary fw-semibold">Company</h5>
 
         <Link className="text-white" to="/">About</Link>
@@ -46,7 +46,7 @@ export default function Footer() {
       </div>
 
       {/* third column */}
-      <div className="col-12 col-md-3 d-flex flex-column gap-2 mt-4 w-auto">
+      <div className="col-12 col-md-auto d-flex flex-column gap-2 mt-4 ">
         <h5 className="text-secondary fw-semibold">Follow Us</h5>
           <Link className="text-white" to="/">Twitter</Link>
             <Link className="text-white" to="/">Instagram</Link>
