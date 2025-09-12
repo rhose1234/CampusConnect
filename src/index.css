@@ -18,6 +18,7 @@ body{
   margin: none;
   box-sizing: border-box;
   overflow-x: hidden !important;
+  text-decoration: none !important;
 }
 .section-1{
   height: 70vh;
