@@ -63,8 +63,8 @@ export default function Homepage({ bookmarks, setBookmarks }) {
               </h1>
               <p className="mt-4">
                 Campus connect has been in existence ever since the it was
-                observeed that campus students have issues attending event cause
-                thay are not informed
+                observeed that campus students have issues attending events cause
+                they are not informed.
               </p>
               <Link to="/about">
               <button className="mt-2">Learn More</button>
