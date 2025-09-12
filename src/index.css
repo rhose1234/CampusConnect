@@ -55,7 +55,7 @@ h1, h2,h3,h4,h5,h6{
  
 }
 .second-heading .About-Us{
-   color: orangered;
+   color: #f05537;
 }
 .section-2{
   display: flex;
@@ -65,7 +65,7 @@ h1, h2,h3,h4,h5,h6{
 .about-campus-connect{
   padding-left: 50px;
   padding-bottom: 50px;
-  color: orangered;
+  color: #f05537;
   font-family:"Mulish",sans-serif ;
   font-size: 1.5rem;
   font-weight: 700;
@@ -93,22 +93,6 @@ h1, h2,h3,h4,h5,h6{
 .icons span{
   width: 5%;
   font-weight: bolder;
-}
-.button{
-  background-color: orangered;
-  padding: 15px 30px;
-  border-radius: 10px;
-  border: none;
-  color: white;
-  font-family: "Mulish",sans-serif ;
-  font-weight: 800;
-  font-size: 15px;
-  margin-left: 150px;
-}
-.button:hover{
-  color: tomato;
-  background-color: transparent;
-  border: 1.5px solid orangered;
 }
 .second{
   padding: 10px;
@@ -138,7 +122,7 @@ h1, h2,h3,h4,h5,h6{
 }
 .h6{
   text-align: center;
-  color:orangered;;
+  color:#f05537;;
   font-family: "Mulish",sans-serif;
   font-size: 1rem;
 }
@@ -193,7 +177,6 @@ h1, h2,h3,h4,h5,h6{
   background-color: rgba(198, 198, 198, 0.285);
   display: flex;
   flex-direction: row;
-  margin-bottom: 100px;
   padding:10px;
 }
 .left-side{
@@ -204,7 +187,7 @@ h1, h2,h3,h4,h5,h6{
   width: 45%;
 }
 .left-side h3{
-  color: orangered;
+  color: #f05537;
   font-size: 2rem;
 }
 .left-side h1{
@@ -437,7 +420,7 @@ border-radius: 50px;
  
 }
 .second-heading .About-Us{
-   color: orangered;
+   color: #f05537;
 }
 .section-2{
         display: flex;
@@ -447,7 +430,7 @@ border-radius: 50px;
 .about-campus-connect{
   padding-left: 50px;
   padding-bottom: 50px;
-  color: orangered;
+  color: #f05537;
   font-family:"Mulish",sans-serif ;
   font-size: 1.5rem;
   font-weight: 700;
@@ -484,7 +467,7 @@ border-radius: 50px;
   font-weight: bolder;
 }
 .button{
-  background-color: orangered;
+  background-color: #f05537;
   padding: 15px 30px;
   border-radius: 10px;
   border: none;
@@ -499,7 +482,7 @@ border-radius: 50px;
 .button:hover{
   color: tomato;
   background-color: transparent;
-  border: 1.5px solid orangered;
+  border: 1.5px solid #f05537;
 }
 .second{
   padding: 10px;
@@ -530,7 +513,7 @@ border-radius: 50px;
 }
 .h6{
   text-align: center;
-  color:orangered;;
+  color:#f05537;;
   font-family: "Mulish",sans-serif;
   font-size: 1rem;
   width: 900px;
@@ -600,7 +583,7 @@ border-radius: 50px;
   padding-right: 100px;
 }
 .left-side h3{
-  color: orangered;
+  color: #f05537;
   font-size: 2rem;
 }
 .left-side h1{
@@ -718,7 +701,7 @@ border-radius: 50px;
  
 }
 .second-heading .About-Us{
-   color: orangered;
+   color: #f05537;
 }
 .section-2{
         display: flex;
@@ -728,7 +711,7 @@ border-radius: 50px;
 .about-campus-connect{
   padding-left: 50px;
   padding-bottom: 50px;
-  color: orangered;
+  color: #f05537;
   font-family:"Mulish",sans-serif ;
   font-size: 1.5rem;
   font-weight: 700;
@@ -765,7 +748,7 @@ border-radius: 50px;
   font-weight: bolder;
 }
 .button{
-  background-color: orangered;
+  background-color: #f05537;
   padding: 15px 30px;
   border-radius: 10px;
   border: none;
@@ -780,7 +763,7 @@ border-radius: 50px;
 .button:hover{
   color: tomato;
   background-color: transparent;
-  border: 1.5px solid orangered;
+  border: 1.5px solid #f05537;
 }
 .second{
   padding: 10px;
@@ -811,7 +794,7 @@ border-radius: 50px;
 }
 .h6{
   text-align: center;
-  color:orangered;;
+  color:#f05537;;
   font-family: "Mulish",sans-serif;
   font-size: 1rem;
   width: 900px;
@@ -881,7 +864,7 @@ border-radius: 50px;
   padding-right: 100px;
 }
 .left-side h3{
-  color: orangered;
+  color: #f05537;
   font-size: 2rem;
 }
 .left-side h1{
