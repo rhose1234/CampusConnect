@@ -88,12 +88,12 @@ const GalleryPage = () => {
       </section>
 
       
-      <section className="filter-section">
+      <section className="filter-sec">
         <h2 className="filter-title">
           <i className="fas fa-filter"></i> Search by:
         </h2>
         <div className="filter-controls">
-          <div className="filter-item">
+          <div className="filter-items">
             <label>Category:</label>
             <select
               value={selectedCategory}
@@ -107,7 +107,7 @@ const GalleryPage = () => {
             </select>
           </div>
 
-          <div className="filter-item">
+          <div className="filter-items">
             <label>Year:</label>
             <select
               value={selectedYear}
