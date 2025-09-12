@@ -4,7 +4,6 @@ import { CiBookmark } from "react-icons/ci";
 import { IoLocationOutline } from "react-icons/io5";
 import { LuCalendarDays } from "react-icons/lu";
 import Countdown from '../../Components/Countdown';
-
 import { FaBookmark } from "react-icons/fa";
 import { motion } from "framer-motion";
 import FilterSection from "../../Components/FilterSection.jsx";
@@ -24,7 +23,7 @@ export default function Events({ events, bookmarks, setBookmarks }) {
     );
   };
 
-  // Apply filters
+
   const filteredEvents = events.filter((event) => {
     const matchesDate = filters.date ? event.date === filters.date : true;
     const matchesName = filters.eventName
@@ -38,7 +37,7 @@ export default function Events({ events, bookmarks, setBookmarks }) {
 
   return (
     <>
-      {/* Hero section */}
+      
       <div className="events">
         <div className="d-flex flex-column justify-content-center align-items-center vh-100 text-center">
           <h1 className="text-white fw-bold fs-1">Explore Upcoming Events</h1>
@@ -51,7 +50,6 @@ export default function Events({ events, bookmarks, setBookmarks }) {
         <FilterSection onFilter={setFilters} />
       </div>
 
-      {/* Event Listing */}
       <div className="event-listing container">
         <div className="section-header">
           <div className="left-header">

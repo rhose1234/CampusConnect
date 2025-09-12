@@ -63,6 +63,9 @@ window.addEventListener("scroll", handleScroll)
          <li className="nav-item">
           <NavLink className="nav-link" to="/contact" href="#">Contact</NavLink>
         </li>
+        <li className='nav-item'>
+          <NavLink className="nav-link" to = "/feedback" href="#">Feedback</NavLink>
+        </li>
       </ul>
 
       <div className='d-flex gap-4 mt-2'>
