@@ -11,6 +11,7 @@ import Gallery from './Pages/Gallery';
 import About from './Pages/about/About'
 import Footer from './Components/Footer'
 import Feedback from "./Pages/Feedback/Feedback";
+import Register from "./Pages/Register";
 
 
 
@@ -61,6 +62,7 @@ export default function App() {
          <Route path="/gallery" element={<Gallery />} />
 
         <Route path="/feedback-success" element={<FeedbackSuccess />} />
+        <Route path="/register" element={<Register />} />
 
       </Routes>
     <Footer />
