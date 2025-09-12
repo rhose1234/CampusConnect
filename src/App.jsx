@@ -1,14 +1,17 @@
 import React, { useState, useEffect } from "react";
 import { Route, Routes } from "react-router-dom";
 import Navbar from "./Components/Navbar";
-import Homepage from "./Pages/Homepage";
+import FeedbackSuccess from "./Components/FeedbackSucess";
 
+import Homepage from "./Pages/Homepage";
 import Events from "./Pages/Events/Events";
-import Bookmarks from "./Pages/Bookmark/Bookmark";
+import Bookmarks from "./Pages/Bookmark/Bookmark"
+import Contact from './Pages/Contact';
+import Gallery from './Pages/Gallery';
 import About from './Pages/about/About'
 import Footer from './Components/Footer'
 import Feedback from "./Pages/Feedback/Feedback";
-import FeedbackSuccess from "./Components/FeedbackSucess";
+
 
 
 export default function App() {
@@ -53,7 +56,12 @@ export default function App() {
           path="/bookmarks"
           element={<Bookmarks events={events} bookmarks={bookmarks} />}
         />
+
+         <Route path="/contact" element={<Contact />} />
+         <Route path="/gallery" element={<Gallery />} />
+
         <Route path="/feedback-success" element={<FeedbackSuccess />} />
+
       </Routes>
     <Footer />
     </>
