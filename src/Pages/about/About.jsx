@@ -11,9 +11,7 @@ import icon3 from '../../assets/images/icon3.png'
 import mission from '../../assets/images/mission.png'
 
 function About() {
-  const handleClick = () =>{
-    
-  }
+
   return (
     <div className="body">
       <section className="section-1" >
@@ -34,7 +32,7 @@ function About() {
           <img src={icon3} />
            <span> 100+ Schedule </span>
         </div>
-          <button className='button' onclick={handleClick}>Learn more</button>
+        
         </p>
         <p className="second">
           <div>
