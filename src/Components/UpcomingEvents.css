@@ -1,31 +1,30 @@
+/* Base */
 .upcoming-events {
-  padding: 80px 0px;
+  padding: 80px 20px;
   font-family: "Poppins", sans-serif;
   background: #fafafa;
-  
 }
+
 .upcoming-events .container {
   max-width: 1200px;
+  width: 100%;
   margin: 0 auto;
 }
 
-/* ===== Header ===== */
+
 .section-header {
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
   margin-bottom: 30px;
-  padding: 0 !important;
+  flex-wrap: wrap;
+  gap: 12px;
 }
 
 .left-header {
   display: flex;
   flex-direction: column;
   gap: 6px;
-}
-
-.left-header span{
-  margin-left: 0px !important;
 }
 
 .section-header h1 {
@@ -46,7 +45,6 @@
 .result-count {
   font-size: 14px;
   color: #888;
- 
 }
 
 /* Arrows */
@@ -75,16 +73,19 @@
 }
 
 .upcoming-events .slick-slide {
-  display: block !important; 
-  padding: 0 10px;           
+  display: block !important;
+  padding: 0 10px;
   box-sizing: border-box;
+  min-width: 0; 
 }
 
-.event-card {
-  width: 100%;               
-  margin: 0 auto;
-  max-width: none;
+.event-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block; 
 }
+
 
 .event-card {
   background: #fff;
@@ -93,44 +94,33 @@
   box-shadow: 0 4px 14px rgba(0, 0, 0, 0.08);
   display: flex;
   flex-direction: column;
-  margin: 0; 
-  max-width: 100% !important;
-  box-sizing: border-box;
+  margin: 0 auto;
+  transition: transform 0.3s ease;
 }
 
-
+/* Image */
 .event-image {
   position: relative;
   width: 100%;
-  height: 160px;
+  height: 200px;
   overflow: hidden;
 }
 
-.event-image img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
+
 
 .days-tag {
   position: absolute;
   bottom: 12px;
   left: 12px;
   color: #fff;
-  font-size: 17px;
-  padding: 5px 12px;
+  font-size: 14px;
+  padding: 4px 10px;
   border-radius: 20px;
   font-weight: 500;
-  letter-spacing: 0.5px;
-}
-
-.countdown {
-  font-family: "Poppins", sans-serif;
-  font-weight: 600;
+  background: rgba(0, 0, 0, 0.5);
 }
 
 
-/* ===== Event Details ===== */
 .event-details {
   padding: 15px;
   display: flex;
@@ -165,7 +155,6 @@
   gap: 6px;
 }
 
-/* ===== Footer ===== */
 .event-footer {
   display: flex;
   justify-content: space-between;
@@ -192,11 +181,11 @@
   color: #f05537;
 }
 
-/* ===== Dots ===== */
+
 .upcoming-events .slick-dots {
   position: relative !important;
   bottom: 0 !important;
-  margin-top: 10px !important;
+  margin-top: 15px !important;
   text-align: center;
 }
 
@@ -206,7 +195,7 @@
   height: 8px;
   background-color: #bbb;
   border-radius: 50%;
-  content: '';
+  content: "";
   opacity: 0.8;
 }
 
@@ -216,11 +205,9 @@
 }
 
 
-
-/* ===== See More ===== */
 .see-more {
   text-align: center;
-  margin-top: 15px;
+  margin-top: 20px;
 }
 
 .see-more button {
@@ -240,16 +227,96 @@
   background: #d94326;
   transform: translateY(-2px);
 }
+
+
+
+
+@media (max-width: 992px) {
+  .section-header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .arrow-controls {
+    align-self: flex-end;
+  }
+
+  .event-details h3 {
+    font-size: 16px;
+  }
+
+  .event-details .desc {
+    font-size: 12px;
+  }
+}
+
+
 @media (max-width: 768px) {
   .upcoming-events {
-  font-family: "Poppins", sans-serif;
-  background: #fafafa;
- padding: 230px 20px 10px 20px;
- margin-top: 0px;
+    padding-top: 50px 15px;
+    margin-top: 200px;
+  }
+
+  .event-image {
+    height: 160px;
+  }
+  .section-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-bottom: 7px;
+  flex-wrap: wrap;
+  gap: 5px;
 }
 
-}
-@media (max-width: 992px){
+  .section-header h1 {
+    font-size: 22px;
+  }
 
-  
+  .event-details h3 {
+    font-size: 15px;
+  }
+
+  .event-details .desc {
+    font-size: 12px;
+  }
+
+  .arrow {
+    width: 36px;
+    height: 36px;
+    font-size: 16px;
+  }
+
+  .see-more button {
+    padding: 10px 22px;
+    font-size: 13px;
+  }
+}
+
+/* Small phones */
+@media (max-width: 480px) {
+  .upcoming-events {
+    padding: 30px 10px;
+  }
+
+  .section-header h1 {
+    font-size: 20px;
+  }
+
+  .event-image {
+    height: 150px;
+  }
+
+  .event-details h3 {
+    font-size: 14px;
+  }
+
+  .event-details .desc {
+    font-size: 11px;
+  }
+
+  .see-more button {
+    width: 100%;
+    border-radius: 12px;
+  }
 }
