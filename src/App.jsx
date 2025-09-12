@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import { Route, Routes } from "react-router-dom";
 import Navbar from "./Components/Navbar";
 import FeedbackSuccess from "./Components/FeedbackSucess";
-// import About from "./Pages/About/About"
+import About from "./Pages/About/About";
 import Homepage from "./Pages/Homepage/Homepage";
 import Events from "./Pages/Events/Events";
 import Bookmarks from "./Pages/Bookmark/Bookmark";
@@ -51,16 +51,7 @@ export default function App() {
           }
         />
         <Route path="/feedback" element={<Feedback />} />
-        {/* <Route
-          path="/about"
-          element={
-            <About
-              events={events}
-              bookmarks={bookmarks}
-              setBookmarks={setBookmarks}
-            />
-          }
-        /> */}
+        <Route path="/about" element={<About />} />
         <Route
           path="/bookmarks"
           element={<Bookmarks events={events} bookmarks={bookmarks} />}
