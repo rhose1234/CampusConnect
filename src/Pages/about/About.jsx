@@ -24,7 +24,7 @@ function About() {
       <section className="section-2">
         <p>
         <p className="about-campus-connect">About Campus Connect</p>
-        <h3 className="mini-head">Sed malesuada massa lacinia, dictum dui a, dignissim sem.</h3>
+        <h3 className="mini-head">Campus Connect.</h3>
         <p className="mini-head-2">Campus Connect is the ultimate hub for students. Whether you're looking for a study group, a ride home for the holidays, or the best place to grab a late-night snack, we've got you covered</p>
         <div className="icons">
           <img src={icon1} />
@@ -70,7 +70,7 @@ function About() {
       <img src={mission}/>
       <div className="mission">
       <h2>Our Mission and Values</h2>
-      <p>Our mission is simple: to provide the highest level of service, integrity, and expertise in the real estate market. We are committed to putting our clients first and ensuring that their real estate experience is smooth, successful, and enjoyable. Our core values of transparency, honesty, and customer-centricity drive everything we do.</p>
+      <p>Our mission is simple: to ensure students and faculty have easy acces and information relating to different college events</p>
       </div>
      </section>
      <section className="section-4">
