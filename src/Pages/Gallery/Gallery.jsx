@@ -7,6 +7,8 @@ import fifthcarousel from "../../assets/images/fifthcarousel.jpg";
 import sixthcarousel from "../../assets/images/sixthcarousel.jpg";
 import "./Gallery.css";
 
+
+
 const GalleryPage = () => {
   const [galleryData, setGalleryData] = useState([]);
   const [selectedCategory, setSelectedCategory] = useState("All");
@@ -62,7 +64,7 @@ const GalleryPage = () => {
             display: "flex",
             alignItems: "center",
             justifyContent: "center",
-            Index: 1000,
+            zIndex: 1000,
           }}
           onClick={() => setPopupImg(null)}
         >
@@ -79,7 +81,7 @@ const GalleryPage = () => {
         </div>
       )}
 
-      <section className="hero-section">
+      <section className="hero-section mb-4 ">
         <div className="hero-overlay">
           <h1 className="hero-title">Campus Moments</h1>
           <p className="hero-subtitle">

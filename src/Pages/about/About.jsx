@@ -6,9 +6,9 @@ import image1 from "../../assets/images/image1.png"
 import image2 from "../../assets/images/image2.png"
 import image3 from "../../assets/images/image3.png"
 
-import image4 from  "../../assets/images/jacob2.png"
-import jacob from "../../assets/images/JACOB.png"
-import satigo from "../../assets/images/jacob3.png"
+import image4 from  "../../assets/images/image1.jpg"
+import jacob from "../../assets/images/image2.jpg"
+import satigo from "../../assets/images/teamleader.jpg"
 import mission from "../../assets/images/mission.png"
 
 
@@ -61,27 +61,29 @@ export default function About() {
         
 
            <div className='col-12 col-md-4'>
-          <img className='card-img ' src={satigo} alt='speaker1'/>
+          <img className='card-img rounded-top ' src={satigo} alt='speaker1'/>
            <div className='details p-3 rounded-bottom' >
-            <h5 className='fw-bold text-white text-center'>Jacob Samson</h5>
+            <h5 className='fw-bold text-white text-center'>Marvelous Rose</h5>
+            <p className='text-center text-white fw-semibold'>Student</p>
+          </div>
+        </div>
+
+        <div className='col-12 col-md-4' >
+          <img className='card-img shadow-lg rounded-top' src={jacob} alt='speaker1'/>
+          <div className='details p-3 rounded-bottom' >
+            <h5 className='fw-bold text-white text-center'>Rotimi Olaniran</h5>
             <p className='text-center text-white fw-semibold'>Active Mentor</p>
           </div>
         </div>
 
     <div className='col-12 col-md-4'>
-          <img className='card-img ' src={image4} alt='speaker1'/>
+          <img className='card-img rounded-top ' src={image4} alt='speaker1'/>
           <div className='details  p-3 rounded-bottom' >
             <h5 className='fw-bold text-white text-center'>Jacob Samson</h5>
             <p className='text-center text-white fw-semibold'>Active Mentor</p>
           </div>
         </div>
-          <div className='col-12 col-md-4'>
-          <img className='card-img ' src={jacob} alt='speaker1'/>
-          <div className='details p-3 rounded-bottom' >
-            <h5 className='fw-bold text-white text-center'>Jacob Samson</h5>
-            <p className='text-center text-white fw-semibold'>Active Mentor</p>
-          </div>
-        </div>
+          
 
         </div>
       </div>
