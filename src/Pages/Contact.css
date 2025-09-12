@@ -1,0 +1,56 @@
+h1, h2 {
+  font-family: "Poppins", sans-serif;
+  font-size: 800;
+
+}
+
+body, p {
+  font-family: "mulish", sans-serif;
+}
+.contact-hero {
+  text-align: center;
+  padding: 3rem 1rem;
+  background: 
+    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),  
+    url("/image/navbg.png") center/cover no-repeat;
+  color: white;
+  min-height: 60vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  
+
+}
+
+
+.organizers {
+  text-align: center;
+  padding: 2rem 1rem;
+}
+
+.organizers-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+.organizer-card {
+  background: #f5f5f5;
+  padding: 1rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.organizer-img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 1rem;
+}
+
+.map-container {
+  border-radius: 15px;
+}
+
