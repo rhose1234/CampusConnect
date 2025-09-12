@@ -14,20 +14,20 @@ export default function Contact() {
   return (
     <div className="contact-page">
       <header className="contact-hero">
-        <h1>Contact Us</h1>
-        <p>
-          Have questions about campus events? Reach out to our coordinators for
+        <h1 className="fw-bold">Contact Us</h1>
+        <p className="hero-subtitle">
+          Have questions about campus events? <br/>Reach out to our coordinators for
           details, registrations, or support.
         </p>
       </header>
 
-      <section className="organizers">
-        <h2>Meet the Organizers</h2>
+      <section className="organizers container mx-auto">
+        <h1 className="fw-bold text-black">Meet the Organizers</h1>
         <div className="organizers-grid">
           {organizers.map((org, index) => (
-            <div key={index} className="organizer-card">
+            <div key={index} className="organizer-card py-3">
               <img src={org.image} alt={org.name} className="organizer-img" />
-              <h3>{org.name}</h3>
+              <h3 className="fw-bold mt-1">{org.name}</h3>
               <p>{org.role}</p>
               {org.position && <p>{org.position}</p>}
               <p>{org.phone}</p>
@@ -36,8 +36,8 @@ export default function Contact() {
           ))}
         </div>
       </section>
+
       <section className="map-section">
-      
         <div className="map-container">
          <iframe
             title="campus-map"

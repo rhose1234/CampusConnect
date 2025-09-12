@@ -16,7 +16,7 @@ const Register = () => {
       {/* Hero Section */}
       <section className="register-hero">
         <div className="overlay">
-          <h1>Get Registered ahead of time</h1>
+          <h1 className="fw-bold">Get Registered ahead of time</h1>
           <p>
             Join us for an exciting experience at Campus Connect!  
             Fill out the form below to secure your spot.
@@ -27,7 +27,7 @@ const Register = () => {
       {/* Form Section */}
       <section className="register-form-section">
         <form className="register-form" onSubmit={handleSubmit}>
-          <h2>Register</h2>
+          <h2 className="fw-bold">Register</h2>
           <p className="form-note">Please provide the requirements*</p>
 
           <input type="text" name="name" placeholder="Name*" required />
@@ -52,13 +52,7 @@ const Register = () => {
         </form>
       </section>
 
-      {/* Footer */}
-      <footer className="register-footer">
-        <div className="footer-left">© Campus Connect</div>
-        <div className="footer-right">
-          <a href="#">Twitter</a> | <a href="#">Facebook</a>
-        </div>
-      </footer>
+     
     </div>
   );
 };

@@ -1,95 +1,118 @@
 import React from 'react'
-import image1 from '../../assets/images/image1.png'
-import image2 from '../../assets/images/image2.png'
-import image3 from '../../assets/images/image3.png'
-import talented from '../../assets/images/talented-speaker.png'
-import jacob from '../../assets/images/JACOB.png'
-import santigo from '../../assets/images/SATIGO.png'
-import icon1 from '../../assets/images/icon1.png'
-import icon2 from '../../assets/images/icon2.png'
-import icon3 from '../../assets/images/icon3.png'
-import mission from '../../assets/images/mission.png'
+import "./About.css";
 
-function About() {
 
+import image1 from "../../assets/images/image1.png"
+import image2 from "../../assets/images/image2.png"
+import image3 from "../../assets/images/image3.png"
+
+import image4 from  "../../assets/images/jacob2.png"
+import jacob from "../../assets/images/JACOB.png"
+import satigo from "../../assets/images/jacob3.png"
+import mission from "../../assets/images/mission.png"
+
+
+
+export default function About() {
   return (
-    <div className="body">
-      <section className="section-1" >
-        <h1 className="about-us">About Us</h1>
-      <h1 className="about-us-heading">About Us</h1>
-      <p className="second-heading"><p>Home</p><p className="About-Us">About us</p></p>
-      </section>
-      <section className="section-2">
-        <p>
-        <p className="about-campus-connect">About Campus Connect</p>
-        <h3 className="mini-head">Campus Connect.</h3>
-        <p className="mini-head-2">Campus Connect is the ultimate hub for students. Whether you're looking for a study group, a ride home for the holidays, or the best place to grab a late-night snack, we've got you covered</p>
-        <div className="icons">
-          <img src={icon1} />
-          <span> 100+ Speakers </span>
-          <img src={icon2} />
-           <span> 400+ Events </span>
-          <img src={icon3} />
-           <span> 100+ Schedule </span>
-        </div>
-        
-        </p>
-        <p className="second">
-          <div>
-        <img src={image1} alt="text" />
-        <img src={image2} alt="text" />
-        </div>
-        <img src={image3} alt="text" />
-        </p>
-      </section>
-    <section className="section-3">
-      <p className="Speaker">SPEAKER</p>
-      <h6 className="h6">Speaker</h6>
-      <h2 className="h2">TALENTED SPEAKER</h2>
-      <div className="talented-group">
-      <p className='talented'>
-        <img src={talented}  />
-         <h4>TINA COKER</h4>
-        <span>Marketing</span>
-      </p>
-       <p className='talented'>
-        <img src={jacob}  />
-         <h4>JACOB LOGAN</h4>
-        <span>Business manager</span>
-      </p>
-       <p className='talented'>
-        <img src={santigo}  />
-         <h4>SANTIGO ABENA</h4>
-        <span>Senior Visual Designer</span>
-      </p>
+    <>
+        <div className="about">
+      
+          <h1 className="text-white fw-bold fs-1">Get To Know Us</h1>
+          <p className="text-white text-sm hero-subtitle">
+            Learn more about how we operate, our events, organizers and the board generally
+          </p>
       </div>
-     </section>
-     <section className="section-5">
-      <img src={mission}/>
-      <div className="mission">
-      <h2>Our Mission and Values</h2>
-      <p>Our mission is simple: to ensure students and faculty have easy acces and information relating to different college events</p>
-      </div>
-     </section>
-     <section className="section-4">
-      <div className="left-side">
-        <h2 className="testimonial">TESTIMONIAL</h2>
-      <h3>Testimonial</h3>
-      <h1>What People Say About Campus Connect.</h1>
-      </div>
-      <div className='right-side'>
-        <img src={talented}/>
-        <div>
-        <p className="asterik">''</p>
-        <p className='head'>TINA COKER</p>
-         <p className='neck'>Marketing</p>
-         <p className='chest'>Campus Connect is the ultimate hub for students. Whether you're looking for a study group, a ride home for the holidays.</p>
+
+      
+       <div className='aboutUs container py-3 my-2'>
+  <div className='row mx-auto align-items-center'>
+    <div className='col-12 col-md-6'>
+      <p className='fw-semibold subheading'>About Campus Connect</p>
+      <h1 className='fw-bold text-black'>Why Us?</h1>
+      <p>
+        Campus Connect is the ultimate hub for students. Whether you're looking
+        for a study group, a ride home for the holidays, or the best place to
+        grab a late-night snack, we've got you covered.
+      </p>
+    </div>
+
+    <div className='col-12 col-md-6'>
+      <div className='row g-2'>
+        <div className='col-6'>
+          <img src={image1} className='img-fluid h-50' alt='image1' />
+          <img src={image2} className='img-fluid h-50 mt-2' alt='image2' />
         </div>
 
+     
+        <div className='col-6'>
+          <img src={image3} className='img-fluid' alt='image3' />
+        </div>
       </div>
-     </section>
     </div>
+  </div>
+      </div>
+
+      <div className='speakers container py-3 '>
+         <p className='fw-semibold text-center subheading'>Meet Our Speakers</p>
+      <h1 className='fw-bold text-center text-black'>Talented Speakers</h1>
+        <div className='row mx-auto mt-5 gap-3 gap-md-0'>
+
+        
+
+           <div className='col-12 col-md-4'>
+          <img className='card-img ' src={satigo} alt='speaker1'/>
+           <div className='details p-3 rounded-bottom' >
+            <h5 className='fw-bold text-white text-center'>Jacob Samson</h5>
+            <p className='text-center text-white fw-semibold'>Active Mentor</p>
+          </div>
+        </div>
+
+    <div className='col-12 col-md-4'>
+          <img className='card-img ' src={image4} alt='speaker1'/>
+          <div className='details  p-3 rounded-bottom' >
+            <h5 className='fw-bold text-white text-center'>Jacob Samson</h5>
+            <p className='text-center text-white fw-semibold'>Active Mentor</p>
+          </div>
+        </div>
+          <div className='col-12 col-md-4'>
+          <img className='card-img ' src={jacob} alt='speaker1'/>
+          <div className='details p-3 rounded-bottom' >
+            <h5 className='fw-bold text-white text-center'>Jacob Samson</h5>
+            <p className='text-center text-white fw-semibold'>Active Mentor</p>
+          </div>
+        </div>
+
+        </div>
+      </div>
+
+      <div className='mission container py-3 '>
+  <div className='row mx-auto align-items-center'>
+    <div className='col-12 col-md-6'>
+      <img src={mission} className='mission w-100'/>
+    </div>
+
+     <div className='col-12 col-md-6'>
+      <p className='fw-semibold subheading'>  What We do</p>
+      <h1 className='fw-bold text-black'>Our Mission and Values</h1>
+      <p>
+       We are on a mission to ensuring that students do not just read books or just learn, they get to mingle, connect and network with individuals and 
+       like minds, we host and give information about different categories of event ranging from.
+
+       <ul className='px-3 mt-3'>
+        <li>Cultural Events</li>
+        <li>Sport Events</li>
+        <li>Technical Events</li>
+        <li>Academic Events</li>
+       </ul>
+      </p>
+    </div>
+    
+  </div>
+      </div>
+
+       
+      
+    </>
   )
 }
-
-export default About

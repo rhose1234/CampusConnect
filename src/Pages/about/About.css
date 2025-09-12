@@ -1,0 +1,29 @@
+.about {
+  background-image: linear-gradient(
+                rgba(0, 0, 0, 0.5), 
+                rgba(0, 0, 0, 0.5)
+              ),  url('../../assets/images/AboutImage.png');
+  background-size: cover;
+  background-position: center;
+  height: 60vh;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+.hero-subtitle{
+    font-size: 1rem;
+  opacity: 0.9;
+  line-height: 1.6;
+}
+.subheading{
+    color: #f05537 !important;
+}
+.details{
+    background-color: #f05537 !important;
+}
+.mission ul li{
+    list-style: square;
+}

@@ -39,17 +39,19 @@ export default function Events({ events, bookmarks, setBookmarks }) {
     <>
       
       <div className="events">
-        <div className="d-flex flex-column justify-content-center align-items-center vh-100 text-center">
+        <div className="d-flex flex-column justify-content-center align-items-center text-center">
+        <div className="event-overlay">
           <h1 className="text-white fw-bold fs-1">Explore Upcoming Events</h1>
-          <p className="text-white text-sm w-50">
-            A collection of upcoming events you can attend on campus, from
+          <p className="text-white text-center hero-subtitle">
+            A collection of upcoming events you can attend on campus, from <br/>
             cultural fests, sports events, workshops, and more.
           </p>
+          </div>
         </div>
 
         <FilterSection onFilter={setFilters} />
       </div>
-
+      
       <div className="event-listing container">
         <div className="section-header">
           <div className="left-header">

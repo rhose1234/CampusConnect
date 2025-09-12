@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
-import firstCarousel from "../assets/images/firstcarousel.png";
-import secCarousel from "../assets/images/seccarousel.png";
-import thirdCarousel from "../assets/images/thirdcarousel.png";
+import firstCarousel from "../../assets/images/firstcarousel.png";
+import secCarousel from "../../assets/images/seccarousel.png";
+import thirdCarousel from "../../assets/images/thirdcarousel.png";
 import "./Gallery.css";
 
 const GalleryPage = () => {
@@ -156,7 +156,6 @@ const GalleryPage = () => {
           ))
         )}
       </section>
-
       
       {filteredData.length > 0 && (
         <div className="view-more-container">

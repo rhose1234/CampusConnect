@@ -1,6 +1,6 @@
 /* Hero Section */
 .bookmarks-hero {
-  height: 50vh;
+  
   background: linear-gradient(
                 rgba(0, 0, 0, 0.5), 
                 rgba(0, 0, 0, 0.5)
@@ -12,7 +12,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  height: 100vh;
+  height: 60vh;
   position: relative;
   /* filter: brightness(50%); */
   
@@ -34,7 +34,7 @@
   margin: 0 auto;
   padding: 120px 20px 40px 20px; /* top padding = navbar height */
   background-color: #f9f9f9;
-  min-height: calc(100vh - 80px);
+  min-height: calc(60vh - 80px);
 }
 
 .no-bookmarks {

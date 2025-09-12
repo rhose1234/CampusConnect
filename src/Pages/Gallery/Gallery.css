@@ -11,7 +11,7 @@
               url("/image/galleryhero.png") center/cover no-repeat;;
   background-size: cover;
   background-position: center;
-  height: 400px;
+  height: 60vh;
   display: flex;
   align-items: center;
   justify-content: center;
