@@ -11,6 +11,7 @@ import { GiGlassCelebration } from "react-icons/gi";
 
 import "./Homepage.css";
 import LatestNews from "../Components/LatestNews/LatestNews";
+import { Link } from "react-router-dom";
 
 export default function Homepage({ bookmarks, setBookmarks }) {
   const [filters, setFilters] = useState({ date: "", eventName: "", category: "" });
@@ -62,7 +63,9 @@ export default function Homepage({ bookmarks, setBookmarks }) {
           <h1 className="fw-bold text-black">No.1 in college Events Management</h1>
         <p className="mt-4">Campus connect has been in existence ever since the it was observeed that campus students have issues attending event cause thay are not informed
           </p>
+          <Link to="/about">
           <button className="mt-2">Learn More</button>
+          </Link>
         </div>
 
           <div class="row col-12 col-md-6 bg-white m-0 p-0 mt-5">
