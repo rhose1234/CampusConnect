@@ -22,7 +22,9 @@
 
 .hero-subtext {
   font-size: 1.2rem;
-  margin-bottom: 10px;
+  opacity: 0.9;
+  line-height: 0.5;
+
 }
 
 .hero-subtext-small {

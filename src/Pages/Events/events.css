@@ -36,6 +36,12 @@
   margin-top: 50px;
 }
 
+.hero-subtitle {
+  font-size: 1.2rem;
+  opacity: 0.9;
+  line-height: 1.6;
+}
+
 .event-listing {
   margin-top: 100px;  
   margin-bottom: 40px;

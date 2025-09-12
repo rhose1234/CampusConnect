@@ -19,7 +19,7 @@ export default function About() {
         <div className="about">
       
           <h1 className="text-white fw-bold fs-1">Get To Know Us</h1>
-          <p className="text-white text-sm w-50">
+          <p className="text-white text-sm hero-subtitle">
             Learn more about how we operate, our events, organizers and the board generally
           </p>
       </div>

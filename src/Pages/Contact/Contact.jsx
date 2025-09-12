@@ -15,8 +15,8 @@ export default function Contact() {
     <div className="contact-page">
       <header className="contact-hero">
         <h1 className="fw-bold">Contact Us</h1>
-        <p className="">
-          Have questions about campus events?Reach out to our coordinators for
+        <p className="hero-subtitle">
+          Have questions about campus events? <br/>Reach out to our coordinators for
           details, registrations, or support.
         </p>
       </header>

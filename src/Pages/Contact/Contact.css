@@ -19,8 +19,11 @@ body, p {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  
-
+}
+.hero-subtitle{
+font-size: 1.2rem;
+  opacity: 0.9;
+  line-height: 1.6;
 }
 .organizers {
   text-align: center;

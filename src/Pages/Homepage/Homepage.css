@@ -27,6 +27,11 @@
   z-index: 1; 
   margin-top: 50px;
 }
+.hero-subtitle {
+  font-size: 1.2rem;
+  opacity: 0.9;
+  line-height: 1.6;
+}
 
 .hero-overlay h1 {
   font-size: 40px;

@@ -6,6 +6,8 @@ import { FaHandshake } from "react-icons/fa6";
 import { RiLightbulbFlashLine } from "react-icons/ri";
 import { GiGlassCelebration } from "react-icons/gi";
 
+import { Link } from "react-router-dom";
+
 import "./Homepage.css";
 import LatestNews from "../../Components/LatestNews/LatestNews";
 
@@ -64,7 +66,9 @@ export default function Homepage({ bookmarks, setBookmarks }) {
                 observeed that campus students have issues attending event cause
                 thay are not informed
               </p>
+              <Link to="/about">
               <button className="mt-2">Learn More</button>
+              </Link>
             </div>
 
             <div class="row col-12 col-md-6 bg-white m-0 p-0 mt-5">
