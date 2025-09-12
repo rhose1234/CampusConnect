@@ -5,46 +5,46 @@
     "department": "CPISM",
     "phone": "+2347068778571",
     "email": "marvelousrhose@gmail.com",
-    "image": ""
+    "image": "https://i.postimg.cc/sgk0wQFq/teamleader.jpg"
   },
   {
-    "name": "Haleem(C.Y.B.E.R)",
+    "name": "Haleem",
     "role": "Assistant Team Lead",
     "department": "CPISM",
     "phone": "+2349137235901",
     "email": "haleemoladejo@gmail.com",
-    "image": ""
+    "image": "https://i.postimg.cc/rsCb78Tc/frontend.jpg"
   },
   {
     "name": "Emmanuel",
     "role": "Frontend Developer and UI/UX Designer",
     "department": "CPISM",
     "phone": "+2347044087764",
-    "email": "emmanuelakanbi45@gmail.com",
-    "image": ""
+    "email": "ayanfe688@gmail.com",
+    "image": "https://i.postimg.cc/m2mp9p2d/passport.jpg"
   },
   {
     "name": "David",
     "role": "Frontend Developer and UI/UX Designer",
     "department": "CPISM",
-    "phone": "2347025001215",
+    "phone": "+2347025001215",
     "email": "davvidggg@gmail.com",
-    "image": ""
+    "image": "https://i.postimg.cc/wvqGCCWd/fullstack.jpg"
   },
   {
     "name": "Amira",
     "role": "UI/UX Designer",
     "department": "CPISM",
-    "phone": "08140057120",
+    "phone": "+2348140057120",
     "email": "amiraomotola2@gmail.com",
-    "image": ""
+    "image": "https://i.postimg.cc/g28Kcg5t/uidesigner.jpg"
   },
   {
     "name": "Oyindamola",
     "role": "Data handler",
     "department": "CPISM",
-    "phone": "09066719318",
-    "email": "oyindamolazainab66@gmail.com",
-    "image": ""
+    "phone": "+2349066719318",
+    "email": "funzainny55@gmail.com",
+    "image": "https://i.postimg.cc/Zn1vNh2k/datahandling.jpg"
   }
 ]

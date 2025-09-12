@@ -1,0 +1,136 @@
+/* Hero Section */
+.bookmarks-hero {
+  height: 50vh;
+  background: linear-gradient(
+                rgba(0, 0, 0, 0.5), 
+                rgba(0, 0, 0, 0.5)
+              ), url('https://i.postimg.cc/VkX20Pn0/freepik-the-style-is-candid-image-photography-with-natural-16454.png') center/cover no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  position: relative;
+  /* filter: brightness(50%); */
+  
+}
+
+.hero-content h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 12px;
+}
+
+.hero-content p {
+  font-size: 1.2rem;
+}
+
+/* Container */
+.bookmarks-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 120px 20px 40px 20px; /* top padding = navbar height */
+  background-color: #f9f9f9;
+  min-height: calc(100vh - 80px);
+}
+
+.no-bookmarks {
+  font-size: 1.2rem;
+  color: #555;
+  text-align: center;
+  margin-top: 50px;
+}
+
+/* Cards Grid */
+.bookmarks-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 25px;
+}
+
+/* Individual Card */
+.bookmark-card {
+  background: #fff;
+  border-radius: 14px;
+  overflow: hidden;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.bookmark-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.18);
+}
+
+/* Image */
+.bookmark-image {
+  position: relative;
+  height: 200px;
+  overflow: hidden;
+}
+
+.bookmark-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.4s ease;
+}
+
+.bookmark-card:hover .bookmark-image img {
+  transform: scale(1.08);
+}
+
+
+
+/* Details */
+.bookmark-details {
+  padding: 18px;
+  display: flex;
+  flex-direction: column;
+}
+
+.bookmark-details h3 {
+  font-size: 1.2rem;
+  font-weight: 700;
+  margin-bottom: 8px;
+  color: #111;
+}
+
+.bookmark-desc {
+  font-size: 0.9rem;
+  color: #555;
+  margin-bottom: 12px;
+  line-height: 1.4;
+}
+
+/* Info row */
+.bookmark-info {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  font-size: 0.85rem;
+  color: #444;
+  margin-bottom: 12px;
+}
+
+.category {
+  background: #f0f0f0;
+  padding: 4px 10px;
+  border-radius: 8px;
+  font-weight: 600;
+  width: fit-content;
+}
+
+/* Price */
+.price-tag {
+  align-self: flex-start;
+  background: #f05537;
+  color: white;
+  padding: 6px 14px;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 0.95rem;
+}
