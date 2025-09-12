@@ -7,7 +7,6 @@ import Countdown from '../../Components/Countdown';
 
 import { FaBookmark } from "react-icons/fa";
 import { motion } from "framer-motion";
-import Countdown from "../../Components/Countdown";
 import FilterSection from "../../Components/FilterSection.jsx";
 import { BiSolidCategory } from "react-icons/bi";
 

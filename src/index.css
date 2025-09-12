@@ -7,7 +7,10 @@
  padding: none;
  margin: none;
  box-sizing: border-box;  
-}    
+} 
+h1, h2,h3,h4,h5,h6{
+  font-family: "Poppins", sans-serif
+}   
 .body{
   padding: none;
   margin: none;
@@ -259,6 +262,9 @@ p, input, a{
   background-color: rgba(0, 0, 0, 0.5) !important;
   transition: background-color 0.3s ease-in-out !important;
 }
+.logo{
+  width: 120px;
+}
 .navbar{
    font-family: "Mulish", sans-serif;
    width: 100% !important;
@@ -309,6 +315,13 @@ p, input, a{
     font-family: "Mulish", sans-serif ;
     font-weight: bold;
 
+}
+.navbar .registerBtn:hover{
+  border: #F05537 solid 1px;
+  color: #F05537;
+  background: rgba(158, 164, 165, 0.2) !important; 
+  backdrop-filter: blur(10px);          
+  -webkit-backdrop-filter: blur(10px);   
 }
 .navbar-collapse{
   background: none; 

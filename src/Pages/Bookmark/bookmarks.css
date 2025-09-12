@@ -1,7 +1,10 @@
 /* Hero Section */
 .bookmarks-hero {
   height: 50vh;
-  background: url('https://i.postimg.cc/VkX20Pn0/freepik-the-style-is-candid-image-photography-with-natural-16454.png') center/cover no-repeat;
+  background: linear-gradient(
+                rgba(0, 0, 0, 0.5), 
+                rgba(0, 0, 0, 0.5)
+              ), url('https://i.postimg.cc/VkX20Pn0/freepik-the-style-is-candid-image-photography-with-natural-16454.png') center/cover no-repeat;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -9,8 +12,10 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  height: 80vh;
+  height: 100vh;
   position: relative;
+  /* filter: brightness(50%); */
+  
 }
 
 .hero-content h1 {
