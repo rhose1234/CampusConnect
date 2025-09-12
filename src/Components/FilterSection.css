@@ -100,9 +100,9 @@ height: auto;
     padding: 15px;
   }
 
-  .filter-item input,
-  .filter-item select {
-    width: 160px;
+  .filter-items input,
+  .filter-itemd select {
+    width: 250px;
     font-size: 13px;
   }
 
@@ -128,8 +128,8 @@ height: auto;
     gap: 12px;
   }
 
-  .filter-item input,
-  .filter-item select {
+  .filter-items input,
+  .filter-items select {
     width: 100%;
     padding: 14px 16px;
     font-size: 14px;
@@ -150,8 +150,8 @@ height: auto;
     gap: 10px;
   }
 
-  .filter-item input,
-  .filter-item select {
+  .filter-items input,
+  .filter-items select {
     font-size: 13px;
     padding: 12px 14px;
   }
@@ -183,8 +183,8 @@ height: auto;
   
 
 }
-.filter-item input,
-.filter-item select{
+.filter-items input,
+.filter-items select{
   width: 100%;
 }
 }
