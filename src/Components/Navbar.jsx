@@ -24,6 +24,13 @@ useEffect(() => {
 window.addEventListener("scroll", handleScroll)
 }, [])
 
+const closeNavbar= () => {
+ const navbar = document.getElementById("navbarSupportedContent")
+    if (navbar.classList.contains("show")) {
+      navbar.classList.remove("show")
+    }
+}
+
   return (
     <>
      <nav className={`navbar navbar-expand-lg  position-fixed py-3 w-100 z-3 ${ scroll ? "scroll" : "bg-transparent" } `}>
@@ -49,22 +56,22 @@ window.addEventListener("scroll", handleScroll)
     <div className="collapse navbar-collapse navbar-drop" id="navbarSupportedContent">
       <ul className="navbar-nav mx-auto mb-2 mb-lg-0 gap-4  text-white fw-semibold">
         <li className="nav-item">
-          <NavLink to="/" className="nav-link fw-bold " aria-current="page" href="#">Home</NavLink>
+          <NavLink to="/" className="nav-link fw-bold " aria-current="page" href="#" onClick={closeNavbar}>Home</NavLink>
         </li>
         <li className="nav-item">
-          <NavLink to="/about" className="nav-link" href="#">About</NavLink>
+          <NavLink to="/about" className="nav-link" href="#" onClick={closeNavbar}>About</NavLink>
         </li>
          <li className="nav-item">
-          <NavLink className="nav-link" to="/events" href="#">Events</NavLink>
+          <NavLink className="nav-link" to="/events" href="#" onClick={closeNavbar}>Events</NavLink>
         </li>
          <li className="nav-item">
-          <NavLink className="nav-link" to="/gallery" href="#">Gallery</NavLink>
+          <NavLink className="nav-link" to="/gallery" href="#" onClick={closeNavbar}>Gallery</NavLink>
         </li>
          <li className="nav-item">
-          <NavLink className="nav-link" to="/contact" href="#">Contact</NavLink>
+          <NavLink className="nav-link" to="/contact" href="#" onClick={closeNavbar}>Contact</NavLink>
         </li>
         <li className='nav-item'>
-          <NavLink className="nav-link" to = "/feedback" href="#">Feedback</NavLink>
+          <NavLink className="nav-link" to = "/feedback" href="#" onClick={closeNavbar}>Feedback</NavLink>
         </li>
       </ul>
 
@@ -72,12 +79,12 @@ window.addEventListener("scroll", handleScroll)
        <motion.div
             whileHover={{ scale: 1.2 }}
             whileTap={{ scale: 0.8 }} >
-      <button className='registerBtn rounded-5'>Register</button>
+      <button className='registerBtn rounded-5' onClick={closeNavbar} >Register</button>
        </motion.div>
 
        <motion.div
             whileHover={{ scale: 1.2 }} >
-      <NavLink className="nav-link" to="/bookmarks" href="#"><img src={bookmark} alt=''  /></NavLink>
+      <NavLink className="nav-link" to="/bookmarks" href="#" onClick={closeNavbar}><img src={bookmark} alt=''  /></NavLink>
         </motion.div>
         
       </div>
