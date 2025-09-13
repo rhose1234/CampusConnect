@@ -7,8 +7,7 @@ This project is created using *React.js. You can set it up on your local machine
 ## 📂 Clone from GitHub  
 1. Clone the repository to your local machine:  
    bash
-   git clone https://github.com/olathegreat/furevercarebytechmaestro
-`
+   git clone https://github.com/rhose1234/CampusConnect
  
 2. Open the project in your code editor (e.g., *Visual Studio Code*).
 3. Install all required dependencies:
