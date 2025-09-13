@@ -47,6 +47,6 @@ This project is created using *React.js. You can set it up on your local machine
  
 * ⚛ React.js
 * ⚡ Vite
-   Bootstrap Cdd
+* Bootstrap CSS
  
 ---
